@@ -1,0 +1,15 @@
+global:
+  fetch_interval: 15s
+
+fetch_configs:
+  - task_name: "host"
+    fetch_interval: 5s
+	
+  - task_name: "container"
+    fetch_interval: 10s
+	task_tags:
+	  docker_endpoint: "unix:///var/run/docker.sock"
+	unit_set: 
+	  - units: 
+	
+
