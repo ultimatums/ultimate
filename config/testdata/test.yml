@@ -4,12 +4,27 @@ global:
 fetch_configs:
   - task_name: "host"
     fetch_interval: 5s
-	
+    unit_sets:
+      - unit_tags:
+          unit_name: "cpu"
+      - unit_tags:
+          unit_name: "mem"
+      - unit_tags:
+          unit_name: "diskio"
+      - unit_tags:
+          unit_name: "network"
+  
   - task_name: "container"
     fetch_interval: 10s
-	task_tags:
-	  docker_endpoint: "unix:///var/run/docker.sock"
-	unit_set: 
-	  - units: 
-	
-
+    task_tags:
+      docker_endpoint: "unix:///var/run/docker.sock"
+      key1: "value1"
+    unit_sets: 
+      - unit_tags:
+          container_id: "02e1f960f516"
+          key1: "value1"
+        fetch_interval: 5s
+      - unit_tags:
+          container_id: "78b0817479ce"
+          key2: "value2"
+        fetch_interval: 6s

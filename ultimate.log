@@ -1,0 +1,48 @@
+time="2015-07-07T12:06:53+08:00" level=info msg="The process id is 21167" file=main.go line=48 
+[34mINFO[0m[0000] The process id is 23383                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file %sultimate.yml     [34mfile[0m=main.go [34mline[0m=121
+[33mWARN[0m[0026] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=83
+[34mINFO[0m[0026] See you again!                                [34mfile[0m=main.go [34mline[0m=87
+[34mINFO[0m[0000] The process id is 24009                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[33mWARN[0m[0010] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=83
+[34mINFO[0m[0010] See you again!                                [34mfile[0m=main.go [34mline[0m=87
+[34mINFO[0m[0000] The process id is 31258                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0039] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0000] The process id is 32209                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0000] The process id is 32418                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0026] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[33mWARN[0m[0039] Caught Signal: terminated, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=83
+[34mINFO[0m[0039] See you again!                                [34mfile[0m=main.go [34mline[0m=87
+[34mINFO[0m[0000] The process id is 510                         [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[33mWARN[0m[0003] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=83
+[34mINFO[0m[0003] See you again!                                [34mfile[0m=main.go [34mline[0m=87
+[34mINFO[0m[0000] The process id is 598                         [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0020] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0023] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0024] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0025] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0026] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0027] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0027] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0028] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0029] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0029] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0030] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[34mINFO[0m[0032] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=121
+[33mWARN[0m[0048] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=83
+[34mINFO[0m[0048] See you again!                                [34mfile[0m=main.go [34mline[0m=87
+time="2015-07-07T17:21:23+08:00" level=info msg="The process id is 29701" file=main.go line=51 
+time="2015-07-07T17:21:23+08:00" level=info msg="Loading configuration file ultimate.yml" file=main.go line=124 
+time="2015-07-07T17:21:23+08:00" level=info msg="Starting task manager..." file=taskmanager.go line=36 
+time="2015-07-07T17:23:35+08:00" level=info msg="The process id is 30939" file=main.go line=51 
+time="2015-07-07T17:23:35+08:00" level=info msg="Loading configuration file ultimate.yml" file=main.go line=124 
+time="2015-07-07T17:23:35+08:00" level=info msg="Starting task manager..." file=taskmanager.go line=36 
+time="2015-07-07T17:24:12+08:00" level=info msg="The process id is 31315" file=main.go line=51 
+time="2015-07-07T17:24:12+08:00" level=info msg="Loading configuration file ultimate.yml" file=main.go line=124 
+time="2015-07-07T17:24:12+08:00" level=info msg="Starting task manager..." file=taskmanager.go line=36 

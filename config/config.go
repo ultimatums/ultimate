@@ -64,19 +64,20 @@ type GlobalConfig struct {
 
 // TaskConfig configures a fetching task.
 type TaskConfig struct {
-	TaskName      string          `yaml:"task_name"`
-	FetchInterval model.Duration  `yaml:"fetch_interval,omitempty"`
-	TaskTags      []*model.TagMap `yaml:"task_tags,omitempty"`
-	UnitSets      []*UnitSet      `yaml:"unit_sets,omitempty"`
-	ContainerSets []*ContainerSet `yaml:"container_sets,omitempty"`
+	TaskName      string         `yaml:"task_name"`
+	FetchInterval model.Duration `yaml:"fetch_interval,omitempty"`
+	TaskTags      model.TagMap   `yaml:"task_tags,omitempty"`
+	UnitSets      []*UnitSet     `yaml:"unit_sets,omitempty"`
+	//	ContainerSets []*ContainerSet `yaml:"container_sets,omitempty"`
 }
 
 type UnitSet struct {
-	Units         []model.TagMap
+	UnitTags      model.TagMap   `yaml:"unit_tags,omitempty"`
 	FetchInterval model.Duration `yaml:"fetch_interval,omitempty"`
 	Identity      string
 }
 
+/*
 type ContainerSet struct {
 	DockerEndpoint string            `yaml:"docker_endpoint"`
 	Containers     []ContainerConfig `yaml:"containers,omitempty"`
@@ -86,3 +87,4 @@ type ContainerConfig struct {
 	ID            string         `yaml:"id"`
 	FetchInterval model.Duration `yaml:"fetch_interval,omitempty"`
 }
+*/
