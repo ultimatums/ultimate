@@ -1,10 +1,10 @@
 global:
   fetch_interval: 15s
 
-fetch_configs:
+task_configs:
   - task_name: "host"
     fetch_interval: 5s
-    unit_sets:
+    unit_configs:
       - unit_tags:
           unit_name: "cpu"
       - unit_tags:
@@ -19,7 +19,7 @@ fetch_configs:
     task_tags:
       docker_endpoint: "unix:///var/run/docker.sock"
       key1: "value1"
-    unit_sets: 
+    unit_configs: 
       - unit_tags:
           container_id: "02e1f960f516"
           key1: "value1"

@@ -14,11 +14,11 @@ var expConf = &Config{
 	GlobalConfig: GlobalConfig{
 		FetchInterval: model.Duration(15 * time.Second),
 	},
-	FetchConfigs: []*TaskConfig{
+	TaskConfigs: []*TaskConfig{
 		{
 			TaskName:      "host",
 			FetchInterval: model.Duration(5 * time.Second),
-			UnitSets: []*UnitSet{
+			UnitConfigs: []*UnitConfig{
 				{
 					UnitTags: model.TagMap{
 						"unit_name": "cpu",
@@ -48,7 +48,7 @@ var expConf = &Config{
 				"docker_endpoint": "unix:///var/run/docker.sock",
 				"key1":            "value1",
 			},
-			UnitSets: []*UnitSet{
+			UnitConfigs: []*UnitConfig{
 				{
 					UnitTags: model.TagMap{
 						"container_id": "02e1f960f516",

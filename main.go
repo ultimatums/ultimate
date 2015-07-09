@@ -88,6 +88,7 @@ func main() {
 	close(hupCh)
 
 	log.Info("See you again!")
+	return
 }
 
 func notifyReload() {

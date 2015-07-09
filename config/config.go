@@ -40,7 +40,7 @@ func LoadConfig(filename string) (*Config, error) {
 // Config is the top_level configuration.
 type Config struct {
 	GlobalConfig GlobalConfig  `yaml:"global"`
-	FetchConfigs []*TaskConfig `yaml:"fetch_configs,omitempty"`
+	TaskConfigs  []*TaskConfig `yaml:"task_configs,omitempty"`
 
 	//raw is the orginal content from the configuration file.
 	raw string
@@ -67,11 +67,11 @@ type TaskConfig struct {
 	TaskName      string         `yaml:"task_name"`
 	FetchInterval model.Duration `yaml:"fetch_interval,omitempty"`
 	TaskTags      model.TagMap   `yaml:"task_tags,omitempty"`
-	UnitSets      []*UnitSet     `yaml:"unit_sets,omitempty"`
+	UnitConfigs   []*UnitConfig  `yaml:"unit_configs,omitempty"`
 	//	ContainerSets []*ContainerSet `yaml:"container_sets,omitempty"`
 }
 
-type UnitSet struct {
+type UnitConfig struct {
 	UnitTags      model.TagMap   `yaml:"unit_tags,omitempty"`
 	FetchInterval model.Duration `yaml:"fetch_interval,omitempty"`
 	Identity      string
