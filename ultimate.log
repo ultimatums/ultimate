@@ -2464,3 +2464,418 @@ time="2015-07-08T17:56:54+08:00" level=info msg="id = host:sample:1" file=taskma
 [34mINFO[0m[2532] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=130
 [37mDEBU[0m[2532] length of tm.units is 6                       [37mfile[0m=taskmanager.go [37mline[0m=165
 [34mINFO[0m[2532] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=158
+[34mINFO[0m[0000] The process id is 12165                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20800b1a0 0xc20800b240 0xc20800b2a0 0xc20800b300]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20800b440 0xc20800b500]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=165
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{map[container_id:02e1f960f516 key1:value1] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] unitCfg: &{map[container_id:78b0817479ce key2:value2] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{map[unit_name:cpu] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] unitCfg: &{map[unit_name:mem] 5000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800aee0]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800aee0 container:sample:1:0xc20800b0a0]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800aee0 container:sample:1:0xc20800b0a0 host:sample:0:0xc20800b2c0]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800aee0 container:sample:1:0xc20800b0a0 host:sample:0:0xc20800b2c0 host:sample:1:0xc20800b4a0]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] unitCfg: &{map[unit_name:diskio] 5000000000 sample:2}  [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] unitCfg: &{map[unit_name:network] 5000000000 sample:3}  [34mfile[0m=taskmanager.go [34mline[0m=230
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:1:0xc20800b0a0 host:sample:0:0xc20800b2c0 host:sample:1:0xc20800b4a0 host:sample:2:0xc20800b940 container:sample:0:0xc20800aee0]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = host:sample:3                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[host:sample:3:0xc20800bb20 container:sample:0:0xc20800aee0 container:sample:1:0xc20800b0a0 host:sample:0:0xc20800b2c0 host:sample:1:0xc20800b4a0 host:sample:2:0xc20800b940]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[33mWARN[0m[1188] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=86
+[34mINFO[0m[1188] See you again!                                [34mfile[0m=main.go [34mline[0m=90
+[34mINFO[0m[1188] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=130
+[37mDEBU[0m[1188] length of tm.units is 6                       [37mfile[0m=taskmanager.go [37mline[0m=165
+[34mINFO[0m[1188] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=158
+[34mINFO[0m[0000] The process id is 30140                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20800b020 0xc20800b080 0xc20800b0a0 0xc20800b0c0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20800b1c0 0xc20800b200]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=165
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{map[] 5000000000 sample:0}         [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] unitCfg: &{map[] 6000000000 sample:1}         [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{map[] 5000000000 sample:0}         [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] unitCfg: &{map[] 5000000000 sample:1}         [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ad40]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ad40 container:sample:1:0xc20800aee0]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:1:0xc20800aee0 host:sample:0:0xc20800b140 container:sample:0:0xc20800ad40]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ad40 container:sample:1:0xc20800aee0 host:sample:0:0xc20800b140 host:sample:1:0xc20800b360]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] unitCfg: &{map[] 5000000000 sample:2}         [34mfile[0m=taskmanager.go [34mline[0m=230
+[34mINFO[0m[0000] unitCfg: &{map[] 5000000000 sample:3}         [34mfile[0m=taskmanager.go [34mline[0m=230
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[host:sample:2:0xc20800b700 container:sample:0:0xc20800ad40 container:sample:1:0xc20800aee0 host:sample:0:0xc20800b140 host:sample:1:0xc20800b360]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[34mINFO[0m[0000] id = host:sample:3                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:1:0xc20800aee0 host:sample:0:0xc20800b140 host:sample:1:0xc20800b360 host:sample:2:0xc20800b700 host:sample:3:0xc20800b8e0 container:sample:0:0xc20800ad40]  [34mfile[0m=taskmanager.go [34mline[0m=116
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[33mWARN[0m[0006] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=86
+[34mINFO[0m[0006] See you again!                                [34mfile[0m=main.go [34mline[0m=90
+[34mINFO[0m[0006] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=130
+[37mDEBU[0m[0006] length of tm.units is 6                       [37mfile[0m=taskmanager.go [37mline[0m=165
+[34mINFO[0m[0006] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=158
+[34mINFO[0m[0000] The process id is 30273                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d6b0 0xc20803d740 0xc20803d770 0xc20803d7a0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803d8f0 0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0000] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{mem map[] 5000000000 sample:1}     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800a960]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800a960 container:sample:1:0xc20800ab20]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] The process id is 31223                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d8c0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803da70 0xc20803db90]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] length of unitConfigs = 1                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0000] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac40]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] The process id is 32220                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d8c0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803da70 0xc20803db90]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] length of unitConfigs = 1                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0000] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac40]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0 host:sample:0:0xc20800afa0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0065] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0065] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0065] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0065] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0065] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0065] taskCfg = &{host 5000000000 map[] [0xc208084480]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0065] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc2080845d0 0xc2080846f0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0065] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0065] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0065] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0065] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0065] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0065] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0065] length of unitConfigs = 1                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0065] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0065] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[37mDEBU[0m[0065] is match = true                               [37mfile[0m=taskmanager.go [37mline[0m=104
+[34mINFO[0m[0065] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0 host:sample:0:0xc20800afa0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0065] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[37mDEBU[0m[0065] is match = true                               [37mfile[0m=taskmanager.go [37mline[0m=104
+[34mINFO[0m[0065] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0 host:sample:0:0xc20800afa0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0065] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[37mDEBU[0m[0065] is match = true                               [37mfile[0m=taskmanager.go [37mline[0m=104
+[34mINFO[0m[0065] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0 host:sample:0:0xc20800afa0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0065] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0065] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0143] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0143] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0143] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0143] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0143] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0143] taskCfg = &{host 5000000000 map[] []}         [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0143] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc208085410 0xc208085530]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0143] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0143] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0143] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0143] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0143] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0143] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=228
+[34mINFO[0m[0143] length of unitConfigs = 0                     [34mfile[0m=taskmanager.go [34mline[0m=226
+[34mINFO[0m[0143] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[37mDEBU[0m[0143] is match = true                               [37mfile[0m=taskmanager.go [37mline[0m=104
+[34mINFO[0m[0143] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0 host:sample:0:0xc20800afa0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0143] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[37mDEBU[0m[0143] is match = true                               [37mfile[0m=taskmanager.go [37mline[0m=104
+[34mINFO[0m[0143] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0 host:sample:0:0xc20800afa0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0143] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0143] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[33mWARN[0m[0899] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=86
+[34mINFO[0m[0899] See you again!                                [34mfile[0m=main.go [34mline[0m=90
+[34mINFO[0m[0899] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0899] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0899] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0000] The process id is 10891                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] []}         [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[key1:value1 docker_endpoint:unix:///var/run/docker.sock] [0xc20803d7d0 0xc20803d950]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] length of unitConfigs = 0                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800a600]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800a600 container:sample:1:0xc20800a7e0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0030] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0030] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0030] length of tm.units is 2                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0030] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0030] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0030] taskCfg = &{host 5000000000 map[] [0xc20809ca50]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0030] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20809cba0 0xc20809ccc0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0030] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0030] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0030] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0030] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0030] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0030] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0030] length of unitConfigs = 1                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0030] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0030] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0030] units = map[container:sample:0:0xc20800bc80]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0030] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0030] units = map[container:sample:0:0xc20800bc80 container:sample:1:0xc20800be20]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0030] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0030] units = map[container:sample:0:0xc20800bc80 container:sample:1:0xc20800be20 host:sample:0:0xc20800bfa0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0030] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0030] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0052] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0052] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0052] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0052] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0052] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0052] taskCfg = &{host 5000000000 map[] [0xc20809c630 0xc20809c660]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0052] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20809c7b0 0xc20809c8d0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0052] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0052] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0052] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0052] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0052] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0052] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0052] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0052] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0052] unitCfg: &{mem map[] 5000000000 sample:1}     [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0052] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0052] units = map[container:sample:0:0xc208085480]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0052] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0052] units = map[container:sample:0:0xc208085480 container:sample:1:0xc208085620]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0052] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0052] units = map[container:sample:0:0xc208085480 container:sample:1:0xc208085620 host:sample:0:0xc2080857a0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0052] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] The process id is 11533                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d8c0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803da70 0xc20803db90]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] length of unitConfigs = 1                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac40]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[host:sample:0:0xc20800afa0 container:sample:0:0xc20800ac40 container:sample:1:0xc20800ade0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0009] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0009] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0009] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0009] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0009] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0009] taskCfg = &{host 5000000000 map[] [0xc208084480]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0009] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc2080845d0 0xc2080846f0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0009] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0009] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0009] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0009] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0009] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0009] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0009] length of unitConfigs = 1                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0009] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0009] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0009] units = map[container:sample:0:0xc20809c400]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0009] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0009] units = map[container:sample:1:0xc20809c5a0 container:sample:0:0xc20809c400]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0009] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0009] units = map[container:sample:0:0xc20809c400 container:sample:1:0xc20809c5a0 host:sample:0:0xc20809c720]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0009] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0009] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0058] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0058] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0058] length of tm.units is 3                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0058] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0058] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0058] taskCfg = &{host 5000000000 map[] []}         [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0058] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc208085230 0xc208085350]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0058] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0058] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0058] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0058] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0058] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0058] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0058] length of unitConfigs = 0                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0058] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0058] units = map[container:sample:0:0xc20809c0c0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0058] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0058] units = map[container:sample:0:0xc20809c0c0 container:sample:1:0xc20809c260]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0058] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0058] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0080] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0080] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0080] length of tm.units is 2                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0080] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0080] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0080] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803d9e0]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0080] taskCfg = &{host 5000000000 map[] []}         [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0080] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0080] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0080] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0080] length of unitConfigs = 0                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0080] length of unitConfigs = 1                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0080] unitCfg: &{78b0817479ce map[] 6000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[37mDEBU[0m[0080] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0080] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0080] units = map[container:sample:0:0xc20809d4e0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0080] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0091] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[31mERRO[0m[0091] Couldn't load configuration file (-config.file=ultimate.yml): yaml: line 20: did not find expected key  [31mfile[0m=main.go [31mline[0m=129
+[33mWARN[0m[0173] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=86
+[34mINFO[0m[0173] See you again!                                [34mfile[0m=main.go [34mline[0m=90
+[34mINFO[0m[0173] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0173] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0173] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0000] The process id is 13046                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=127
+[31mERRO[0m[0000] Couldn't load configuration file (-config.file=ultimate.yml): yaml: line 20: did not find expected key  [31mfile[0m=main.go [31mline[0m=131
+[34mINFO[0m[0000] The process id is 13197                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=127
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803d9e0 0xc20803db60]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] []}         [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 0                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac60]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800ac60 container:sample:1:0xc20800ae20]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0006] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=127
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=122
+[34mINFO[0m[0006] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0006] length of tm.units is 2                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0006] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0006] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0006] taskCfg = &{host 5000000000 map[] []}         [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0006] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc208096330 0xc208096450]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0006] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0006] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0006] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0006] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0006] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0006] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0006] length of unitConfigs = 0                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0006] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0006] units = map[container:sample:0:0xc20800a600]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0006] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0006] units = map[container:sample:1:0xc20800a7e0 container:sample:0:0xc20800a600]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0006] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0006] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0016] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=127
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=122
+[31mERRO[0m[0016] Couldn't load configuration file (-config.file=ultimate.yml): yaml: line 20: did not find expected key  [31mfile[0m=main.go [31mline[0m=131
+[34mINFO[0m[0000] The process id is 31056                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[31mERRO[0m[0000] Couldn't load configuration file (-config.file=ultimate.yml): yaml: line 20: did not find expected key  [31mfile[0m=main.go [31mline[0m=129
+[34mINFO[0m[0000] The process id is 31210                       [34mfile[0m=main.go [34mline[0m=51
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=36
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] []}         [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803d9e0 0xc20803db60]}  [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=56
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=69
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=229
+[34mINFO[0m[0000] length of unitConfigs = 0                     [34mfile[0m=taskmanager.go [34mline[0m=227
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800abc0]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=90
+[34mINFO[0m[0000] units = map[container:sample:0:0xc20800abc0 container:sample:1:0xc20800ad60]  [34mfile[0m=taskmanager.go [34mline[0m=114
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=84
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=120
+[34mINFO[0m[0011] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=125
+[31mERRO[0m[0011] Couldn't load configuration file (-config.file=ultimate.yml): yaml: line 20: did not find expected key  [31mfile[0m=main.go [31mline[0m=129
+[33mWARN[0m[0017] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=86
+[34mINFO[0m[0017] See you again!                                [34mfile[0m=main.go [34mline[0m=90
+[34mINFO[0m[0017] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
+[37mDEBU[0m[0017] length of tm.units is 2                       [37mfile[0m=taskmanager.go [37mline[0m=163
+[34mINFO[0m[0017] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156

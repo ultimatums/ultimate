@@ -11,6 +11,7 @@ import (
 
 	"github.com/ultimatums/ultimate/config"
 	"github.com/ultimatums/ultimate/fetch"
+	"github.com/ultimatums/ultimate/outputs"
 	"github.com/upmio/horus/log"
 	"github.com/upmio/horus/utils"
 )
@@ -56,7 +57,10 @@ func main() {
 	}
 	defer os.Remove(PID_FILE)
 
-	taskManager := fetch.NewTaskManager()
+	publisher := outputs.NewPublisherType()
+	publisher.Init()
+
+	taskManager := fetch.NewTaskManager(publisher)
 
 	if !reloadConfig(*cfgFileFlag, taskManager) {
 		os.Exit(1)
@@ -126,7 +130,7 @@ func reloadConfig(filename string, taskManager *fetch.TaskManager) bool {
 
 	cfg, err := config.LoadConfig(filename)
 	if err != nil {
-		log.Errorf("Couldn't load configuration file (-config.file=%s): %v", filename, err)
+		log.Errorf("Failed to load configuration file (-config.file=%s): %v", filename, err)
 		return false
 	}
 

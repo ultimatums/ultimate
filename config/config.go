@@ -40,6 +40,7 @@ func LoadConfig(filename string) (*Config, error) {
 // Config is the top_level configuration.
 type Config struct {
 	GlobalConfig GlobalConfig  `yaml:"global"`
+	OutputConfig OutputConfig  `yaml:"output_config"`
 	TaskConfigs  []*TaskConfig `yaml:"task_configs,omitempty"`
 
 	//raw is the orginal content from the configuration file.
@@ -62,6 +63,15 @@ type GlobalConfig struct {
 	FetchInterval model.Duration `yaml:"fetch_interval,omitempty"`
 }
 
+type OutputConfig struct {
+	Elasticsearch ElasticsearchConfig `yaml:"elasticsearch,omitempty"`
+}
+
+type ElasticsearchConfig struct {
+	Host string
+	Port int
+}
+
 // TaskConfig configures a fetching task.
 type TaskConfig struct {
 	TaskName      string         `yaml:"task_name"`
@@ -72,6 +82,7 @@ type TaskConfig struct {
 }
 
 type UnitConfig struct {
+	UnitName      string         `yaml:"unit_name"`
 	UnitTags      model.TagMap   `yaml:"unit_tags,omitempty"`
 	FetchInterval model.Duration `yaml:"fetch_interval,omitempty"`
 	Identity      string

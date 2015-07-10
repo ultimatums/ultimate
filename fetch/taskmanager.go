@@ -5,6 +5,8 @@ import (
 	"sync"
 
 	"github.com/ultimatums/ultimate/config"
+	"github.com/ultimatums/ultimate/outputs"
+	"github.com/ultimatums/ultimate/units"
 	"github.com/upmio/horus/log"
 )
 
@@ -21,14 +23,17 @@ type TaskManager struct {
 	running bool
 
 	// Units by their ID.
-	units map[string]*Unit
+	units map[string]units.Unit
 	// Tasks by the task config they are derived from.
 	tasks map[*config.TaskConfig]Task
+
+	publisher *outputs.PublisherType
 }
 
-func NewTaskManager() *TaskManager {
+func NewTaskManager(publisher *outputs.PublisherType) *TaskManager {
 	return &TaskManager{
-		units: make(map[string]*Unit),
+		units:     make(map[string]units.Unit),
+		publisher: publisher,
 	}
 }
 
@@ -89,7 +94,7 @@ func (tm *TaskManager) updateUnitSet(unitCfg *config.UnitConfig, taskCfg *config
 	id := fullId(taskCfg, unitCfg.Identity)
 	log.Info("id = ", id)
 
-	newUnit := NewUnit(unitCfg)
+	newUnit := units.NewUnit(unitCfg, taskCfg)
 
 	tm.m.Lock()
 	defer tm.m.Unlock()
@@ -100,11 +105,9 @@ func (tm *TaskManager) updateUnitSet(unitCfg *config.UnitConfig, taskCfg *config
 
 	oldUnit, ok := tm.units[id]
 	if ok {
-		isMatch := (oldUnit.identity == newUnit.identity)
+		isMatch := (oldUnit.EqualTo(newUnit))
 		log.Debug("is match = ", isMatch)
-		if isMatch {
-			//TODO oldUnit.Update()
-		} else {
+		if !isMatch {
 			//TODO newUnit.Start()
 			//TODO oldUnit.Stop()
 			delete(tm.units, id)
@@ -170,10 +173,11 @@ func (tm *TaskManager) removeUnits(f func(string) bool) {
 			continue
 		}
 		wg.Add(1)
-		go func(u *Unit) {
-			//TODO
+		go func(u units.Unit) {
+			//TODO u.StopFetch()
 			wg.Done()
 		}(unit)
+		delete(tm.units, id)
 	}
 	wg.Wait()
 }

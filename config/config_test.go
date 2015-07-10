@@ -14,30 +14,28 @@ var expConf = &Config{
 	GlobalConfig: GlobalConfig{
 		FetchInterval: model.Duration(15 * time.Second),
 	},
+	OutputConfig: OutputConfig{
+		Elasticsearch: ElasticsearchConfig{
+			Host: "192.168.2.78",
+			Port: 9200,
+		},
+	},
 	TaskConfigs: []*TaskConfig{
 		{
 			TaskName:      "host",
 			FetchInterval: model.Duration(5 * time.Second),
 			UnitConfigs: []*UnitConfig{
 				{
-					UnitTags: model.TagMap{
-						"unit_name": "cpu",
-					},
+					UnitName: "cpu",
 				},
 				{
-					UnitTags: model.TagMap{
-						"unit_name": "mem",
-					},
+					UnitName: "mem",
 				},
 				{
-					UnitTags: model.TagMap{
-						"unit_name": "diskio",
-					},
+					UnitName: "diskio",
 				},
 				{
-					UnitTags: model.TagMap{
-						"unit_name": "network",
-					},
+					UnitName: "network",
 				},
 			},
 		},
@@ -50,17 +48,11 @@ var expConf = &Config{
 			},
 			UnitConfigs: []*UnitConfig{
 				{
-					UnitTags: model.TagMap{
-						"container_id": "02e1f960f516",
-						"key1":         "value1",
-					},
+					UnitName:      "02e1f960f516",
 					FetchInterval: model.Duration(5 * time.Second),
 				},
 				{
-					UnitTags: model.TagMap{
-						"container_id": "78b0817479ce",
-						"key2":         "value2",
-					},
+					UnitName:      "78b0817479ce",
 					FetchInterval: model.Duration(6 * time.Second),
 				},
 			},
