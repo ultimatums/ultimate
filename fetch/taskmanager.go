@@ -94,7 +94,10 @@ func (tm *TaskManager) updateUnitSet(unitCfg *config.UnitConfig, taskCfg *config
 	id := fullId(taskCfg, unitCfg.Identity)
 	log.Info("id = ", id)
 
-	newUnit := units.NewUnit(unitCfg, taskCfg)
+	newUnit, err := units.NewUnit(unitCfg, taskCfg)
+	if err != nil {
+		return err
+	}
 
 	tm.m.Lock()
 	defer tm.m.Unlock()
