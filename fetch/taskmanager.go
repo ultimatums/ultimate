@@ -81,7 +81,7 @@ func fullId(cfg *config.TaskConfig, identity string) string {
 func (tm *TaskManager) handleUnitUpdates(taskCfg *config.TaskConfig, ch <-chan *config.UnitConfig) {
 	for unitCfg := range ch {
 		//		log.Debugf("Received potential update for unit config %s", unitCfg.Identity)
-		err := tm.updateUnitSet(unitCfg, taskCfg)
+		err := tm.updateUnits(unitCfg, taskCfg)
 		if err != nil {
 			log.Errorf("Error updating units: %s", err)
 		}
@@ -89,10 +89,10 @@ func (tm *TaskManager) handleUnitUpdates(taskCfg *config.TaskConfig, ch <-chan *
 	log.Debug("handleUnitUpdates finished.")
 }
 
-func (tm *TaskManager) updateUnitSet(unitCfg *config.UnitConfig, taskCfg *config.TaskConfig) error {
+func (tm *TaskManager) updateUnits(unitCfg *config.UnitConfig, taskCfg *config.TaskConfig) error {
 
 	id := fullId(taskCfg, unitCfg.Identity)
-	log.Info("id = ", id)
+	log.Info("fullId = ", id)
 
 	newUnit, err := units.NewUnit(unitCfg, taskCfg)
 	if err != nil {
@@ -111,12 +111,13 @@ func (tm *TaskManager) updateUnitSet(unitCfg *config.UnitConfig, taskCfg *config
 		isMatch := (oldUnit.EqualTo(newUnit))
 		log.Debug("is match = ", isMatch)
 		if !isMatch {
-			//TODO newUnit.Start()
-			//TODO oldUnit.Stop()
-			delete(tm.units, id)
+			go newUnit.Start(tm.publisher.Queue)
+			oldUnit.Stop()
+			// delete(tm.units, id)
 		}
 	} else {
-		//TODO newUnit.Start()
+		log.Println("---------------")
+		go newUnit.Start(tm.publisher.Queue)
 		tm.units[id] = newUnit
 	}
 	log.Info("units = ", tm.units)
@@ -177,7 +178,7 @@ func (tm *TaskManager) removeUnits(f func(string) bool) {
 		}
 		wg.Add(1)
 		go func(u units.Unit) {
-			//TODO u.StopFetch()
+			u.Stop()
 			wg.Done()
 		}(unit)
 		delete(tm.units, id)
@@ -209,11 +210,11 @@ func (tm *TaskManager) ApplyConfig(cfg *config.Config) {
 }
 
 func BuildTaskFromConfig(taskCfg *config.TaskConfig) Task {
-	for i, unitCfg := range taskCfg.UnitConfigs {
+	for _, unitCfg := range taskCfg.UnitConfigs {
 		if unitCfg.FetchInterval == 0 {
 			unitCfg.FetchInterval = taskCfg.FetchInterval
 		}
-		unitCfg.Identity = fmt.Sprintf("sample:%d", i)
+		unitCfg.Identity = fmt.Sprintf("sample:%s", unitCfg.UnitName)
 	}
 
 	var task Task
@@ -232,9 +233,9 @@ func NewSampleTask(unitConfigs []*config.UnitConfig) *SampleTask {
 }
 
 func (t *SampleTask) Run(ch chan<- *config.UnitConfig) {
-	log.Info("length of unitConfigs = ", len(t.UnitConfigs))
+	//	log.Infof("unitConfigs = %#v ", t.UnitConfigs)
 	for _, unitCfg := range t.UnitConfigs {
-		log.Info("unitCfg: ", unitCfg)
+		//		log.Info("unitCfg: ", unitCfg)
 		ch <- unitCfg
 	}
 	close(ch)

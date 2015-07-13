@@ -3,11 +3,14 @@ package outputs
 import (
 	"errors"
 	"fmt"
-	"packetbeat/common"
 	"time"
 
-	"github.com/prometheus/log"
 	"github.com/ultimatums/ultimate/model"
+	"github.com/upmio/horus/log"
+)
+
+var (
+	Publisher = NewPublisherType()
 )
 
 type PublisherType struct {
@@ -30,7 +33,7 @@ func (this *PublisherType) publishFromQueue() {
 }
 
 func (this *PublisherType) publishMetric(metric model.Metric) error {
-	ts, ok := metric["timestamp"].(common.Time)
+	ts, ok := metric["timestamp"].(model.Time)
 	if !ok {
 		return errors.New("Missing 'timestamp' field from metric.")
 	}
@@ -68,7 +71,7 @@ func (this *PublisherType) Init() {
 
 	this.Outputs = append(this.Outputs, Output(elasticOutput))
 
-	//TODO other outputs initalize...
+	// TODO other outputs initalize...
 
 	this.Queue = make(chan model.Metric, 200)
 	go this.publishFromQueue()

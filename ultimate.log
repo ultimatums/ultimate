@@ -2879,3 +2879,846 @@ time="2015-07-08T17:56:54+08:00" level=info msg="id = host:sample:1" file=taskma
 [34mINFO[0m[0017] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=128
 [37mDEBU[0m[0017] length of tm.units is 2                       [37mfile[0m=taskmanager.go [37mline[0m=163
 [34mINFO[0m[0017] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=156
+[34mINFO[0m[0000] The process id is 19410                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803b650 0xc20803b710 0xc20803b740 0xc20803b770]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803b950 0xc20803ba70]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{cpu map[] 5000000000 sample:0}     [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{mem map[] 5000000000 sample:1}     [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] unitCfg: &{diskio map[] 5000000000 sample:2}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{network map[] 5000000000 sample:3}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:3                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0087] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0087] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0087] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0087] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 19897                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90 0xc20803bc20 0xc20803bc50 0xc20803bc80]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803bdd0 0xc20803bef0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{host_cpu map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_mem map[] 5000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[33mWARN[0m[0070] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0070] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0000] The process id is 20470                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bdd0 0xc20803be60 0xc20803be90 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc208092060 0xc208092180]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{host_cpu map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_mem map[] 5000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[33mWARN[0m[0393] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0393] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0000] The process id is 23111                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bdd0 0xc20803be60 0xc20803be90 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc208092060 0xc208092180]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{host_cpu map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_mem map[] 5000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_mem                        [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] unitCfg: &{host_diskio map[] 5000000000 sample:2}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_network map[] 5000000000 sample:3}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:3                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name.  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0062] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0062] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0062] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0062] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 23842                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803bdd0 0xc20803bef0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90 0xc20803bc20 0xc20803bc50 0xc20803bc80]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{host_cpu map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_mem map[] 5000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_mem                        [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_mem  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] unitCfg: &{host_diskio map[] 5000000000 sample:2}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_network map[] 5000000000 sample:3}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:3                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0822] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0822] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0822] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0822] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 2401                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bdd0 0xc20803be60 0xc20803be90 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc208092060 0xc208092180]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] length of unitConfigs = 4                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitCfg: &{host_cpu map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_mem map[] 5000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_mem                        [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_mem  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] unitCfg: &{host_diskio map[] 5000000000 sample:2}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] unitCfg: &{host_network map[] 5000000000 sample:3}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:3                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0059] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Configuration file is reloading...            [34mfile[0m=main.go [34mline[0m=124
+[34mINFO[0m[0059] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0059] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0059] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0059] taskCfg = &{host 5000000000 map[] [0xc20803aed0 0xc20803af30 0xc20803af60]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0059] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803b110 0xc20803b680]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0059] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0059] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0059] length of unitConfigs = 2                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0059] unitCfg: &{02e1f960f516 map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0059] unitCfg: &{78b0817479ce map[] 6000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0059] length of unitConfigs = 3                     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0059] unitCfg: &{host_cpu map[] 5000000000 sample:0}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0059] unitCfg: &{host_diskio map[] 5000000000 sample:1}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0059] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0059] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0059] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0059] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0059] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0059] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0059] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0059] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0059] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0059] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0059] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0059] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0059] unitCfg: &{host_network map[] 5000000000 sample:2}  [34mfile[0m=taskmanager.go [34mline[0m=237
+[34mINFO[0m[0059] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0059] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0059] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[1178] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[1178] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[1178] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[1178] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 16054                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90 0xc20803bc20 0xc20803bc50]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803bda0 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] unitConfigs = [0xc20803bda0 0xc20803bec0]     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitConfigs = [0xc20803bb90 0xc20803bc20 0xc20803bc50]  [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0080] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0080] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0080] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0080] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 16959                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803b920 0xc20803ba40]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803b650 0xc20803b710 0xc20803b740]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] unitConfigs = [0xc20803b650 0xc20803b710 0xc20803b740]   [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitConfigs = [0xc20803b920 0xc20803ba40]     [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0015] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0015] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0015] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0015] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 17184                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bdd0 0xc20803be60 0xc20803be90]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc208092000 0xc208092150]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] unitConfigs = []*config.UnitConfig{(*config.UnitConfig)(0xc208092000), (*config.UnitConfig)(0xc208092150)}   [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] unitConfigs = []*config.UnitConfig{(*config.UnitConfig)(0xc20803bdd0), (*config.UnitConfig)(0xc20803be60), (*config.UnitConfig)(0xc20803be90)}   [34mfile[0m=taskmanager.go [34mline[0m=235
+[34mINFO[0m[0000] id = container:sample:0                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = container:sample:1                       [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:0                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] id = host:sample:1                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] id = host:sample:2                            [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0207] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0207] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0207] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0207] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 19524                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90 0xc20803bc20 0xc20803bc50]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[key1:value1 docker_endpoint:unix:///var/run/docker.sock] [0xc20803bda0 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = container:sample:0                   [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = container:sample:1                   [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:0                        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] fullId = host:sample:1                        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:2                        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0704] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0704] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0704] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0704] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 22257                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90 0xc20803bc20 0xc20803bc50]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803bda0 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = container:sample:0                   [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = container:sample:1                   [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:0                        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:0:host_cpu]           [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] fullId = host:sample:1                        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:2                        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0000] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0000] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0000] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0000] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 22447                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90 0xc20803bc20 0xc20803bc50]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803bda0 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = container:sample:02e1f960f516        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = container:sample:78b0817479ce        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] fullId = host:sample:host_diskio              [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:host_network             [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=111
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0018] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0018] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0018] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0018] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 3660                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90 0xc20803bc20 0xc20803bc50]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] [0xc20803bda0 0xc20803bec0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = container:sample:02e1f960f516        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=110
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = container:sample:78b0817479ce        [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = container                       [34mfile[0m=unit.go [34mline[0m=110
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: container  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=110
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=122
+[34mINFO[0m[0000] fullId = host:sample:host_diskio              [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_diskio                     [34mfile[0m=unit.go [34mline[0m=110
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_diskio  [31mfile[0m=taskmanager.go [31mline[0m=86
+[34mINFO[0m[0000] fullId = host:sample:host_network             [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_network                    [34mfile[0m=unit.go [34mline[0m=110
+[31mERRO[0m[0000] Error updating units: Unrecognized unit name: host_network  [31mfile[0m=taskmanager.go [31mline[0m=86
+[33mWARN[0m[0123] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0123] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0123] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0123] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 4478                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bdd0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=110
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=122
+[33mWARN[0m[0056] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0056] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0056] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[34mINFO[0m[0056] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164
+[34mINFO[0m[0000] The process id is 4867                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bdd0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=110
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[33mWARN[0m[0037] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0037] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0037] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[34mINFO[0m[0037] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 5111                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803bb90]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[key1:value1 docker_endpoint:unix:///var/run/docker.sock] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[34mINFO[0m[0000] ++++++++++++                                  [34mfile[0m=unit.go [34mline[0m=57
+[33mWARN[0m[0039] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0039] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0039] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[34mINFO[0m[0039] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 5369                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] ++++++++++++                                  [34mfile[0m=unit.go [34mline[0m=57
+[37mDEBU[0m[0000] Starting fetch for unit %v...host_cpu         [37mfile[0m=unit.go [37mline[0m=63
+[37mDEBU[0m[0000] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=69
+[33mWARN[0m[0018] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0018] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0018] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0018] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0018] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0018] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0018] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 5494                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[key1:value1 docker_endpoint:unix:///var/run/docker.sock] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] ++++++++++++                                  [34mfile[0m=unit.go [34mline[0m=57
+[37mDEBU[0m[0000] Starting fetch for unit %v...host_cpu         [37mfile[0m=unit.go [37mline[0m=63
+[37mDEBU[0m[0000] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=69
+[33mWARN[0m[0019] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0019] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0019] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0019] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0019] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0019] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0019] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 5648                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=113
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] ++++++++++++                                  [34mfile[0m=unit.go [34mline[0m=57
+[34mINFO[0m[0000] +++++++  5s                                   [34mfile[0m=unit.go [34mline[0m=63
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=65
+[37mDEBU[0m[0000] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=71
+[33mWARN[0m[0059] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0059] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0059] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0059] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0059] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=85
+[37mDEBU[0m[0059] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=87
+[34mINFO[0m[0059] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 6058                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[key1:value1 docker_endpoint:unix:///var/run/docker.sock] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=114
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] ++++++++++++                                  [34mfile[0m=unit.go [34mline[0m=57
+[34mINFO[0m[0000] +++++++  5s                                   [34mfile[0m=unit.go [34mline[0m=63
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=65
+[37mDEBU[0m[0000] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=71
+[37mDEBU[0m[0005] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0010] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0015] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0020] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0025] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0030] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0035] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0040] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0045] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0050] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0055] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0060] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0065] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0070] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0075] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0080] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0085] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0090] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0095] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0100] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0105] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0110] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0115] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0120] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0125] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0130] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0135] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0140] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0145] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0150] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0155] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0160] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0165] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0170] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0175] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0180] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0185] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0190] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0195] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0200] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0205] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0210] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0215] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0220] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0225] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0230] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0235] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0240] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0245] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0250] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0255] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0260] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[37mDEBU[0m[0265] type of this : *units.BaseUnit                [37mfile[0m=unit.go [37mline[0m=79
+[33mWARN[0m[0265] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0265] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0265] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0265] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0265] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=86
+[37mDEBU[0m[0265] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=88
+[34mINFO[0m[0265] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 8158                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=84
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=host_cpu.go [37mline[0m=58
+[37mDEBU[0m[0000] type of this : *units.BaseUnit                [37mfile[0m=host_cpu.go [37mline[0m=64
+[37mDEBU[0m[0005] type of this : *units.BaseUnit                [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0010] type of this : *units.BaseUnit                [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0015] type of this : *units.BaseUnit                [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0020] type of this : *units.BaseUnit                [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0025] type of this : *units.BaseUnit                [37mfile[0m=host_cpu.go [37mline[0m=72
+[33mWARN[0m[0025] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0025] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0025] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0025] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0025] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=56
+[37mDEBU[0m[0025] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=58
+[34mINFO[0m[0025] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 8367                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=84
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=host_cpu.go [37mline[0m=58
+[37mDEBU[0m[0000] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=64
+[37mDEBU[0m[0005] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0010] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0015] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0020] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0025] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0030] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0035] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0040] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0045] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0050] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0055] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0060] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0065] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0070] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0075] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0080] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0085] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0090] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0095] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0100] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0105] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0110] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0115] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0120] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0125] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0130] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0135] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0140] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0145] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0150] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0155] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0160] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0165] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0170] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0175] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0180] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0185] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0190] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0195] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0200] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0205] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0210] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0215] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0220] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0225] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0230] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0235] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0240] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0245] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0250] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0255] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0260] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0265] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0270] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0275] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0280] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0285] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0290] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0295] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0300] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0305] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0310] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0315] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0320] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0325] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0330] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0335] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0340] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[37mDEBU[0m[0345] type of this : *units.HostCpuUnit             [37mfile[0m=host_cpu.go [37mline[0m=72
+[33mWARN[0m[0347] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0347] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0347] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0347] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0347] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=56
+[37mDEBU[0m[0347] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=58
+[34mINFO[0m[0347] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 10479                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=112
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] The process id is 12008                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[key1:value1 docker_endpoint:unix:///var/run/docker.sock] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=112
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] The process id is 12202                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=113
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] this = host_cpu                               [34mfile[0m=unit.go [34mline[0m=67
+[34mINFO[0m[0000] The process id is 12420                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=113
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] this = host_cpu                               [34mfile[0m=unit.go [34mline[0m=67
+[34mINFO[0m[0000] The process id is 12650                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=113
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] this = host_cpu                               [34mfile[0m=unit.go [34mline[0m=67
+[34mINFO[0m[0000] The process id is 14245                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=108
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=61
+[34mINFO[0m[0000] The process id is 14416                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=108
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=61
+[34mINFO[0m[0000] The process id is 16070                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=108
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=61
