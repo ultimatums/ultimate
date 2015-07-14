@@ -3722,3 +3722,578 @@ time="2015-07-08T17:56:54+08:00" level=info msg="id = host:sample:1" file=taskma
 [37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
 [37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
 [37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=61
+[34mINFO[0m[0000] The process id is 18036                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=108
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=61
+[34mINFO[0m[0000] The process id is 8120                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] The process id is 8731                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] The process id is 9362                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[33mWARN[0m[0000] is valid  true                                [33mfile[0m=unit.go [33mline[0m=69
+[33mWARN[0m[0004] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0004] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0004] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0004] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0004] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0004] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0004] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 14483                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=112
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[33mWARN[0m[0000] is valid  true                                [33mfile[0m=unit.go [33mline[0m=69
+[34mINFO[0m[0000] The process id is 14852                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803de00]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=112
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[33mWARN[0m[0000] is valid  true                                [33mfile[0m=unit.go [33mline[0m=69
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[33mWARN[0m[0034] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0034] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0034] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0034] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0034] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=84
+[37mDEBU[0m[0034] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=86
+[34mINFO[0m[0034] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 15051                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=112
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[33mWARN[0m[0000] is valid  true                                [33mfile[0m=unit.go [33mline[0m=69
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0015] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0020] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0025] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0030] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0035] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0040] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0045] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0050] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0055] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0060] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0065] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0070] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0075] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0080] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0085] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0090] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0095] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0100] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0105] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0110] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0115] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0120] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0125] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0130] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0135] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[33mWARN[0m[0139] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0139] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0139] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0139] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0139] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=84
+[37mDEBU[0m[0139] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=86
+[34mINFO[0m[0139] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 15798                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803dbc0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0015] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0020] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0025] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0030] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0035] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0040] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0045] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0050] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0055] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0060] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0065] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0070] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0075] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0080] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0085] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0090] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0095] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0100] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0105] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0110] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0115] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0120] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0125] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0130] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0135] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0140] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0145] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0150] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0155] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0160] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0165] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0170] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0175] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0180] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0185] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0190] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0195] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0200] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0205] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0210] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0215] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0220] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0225] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0230] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0235] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0240] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0245] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0250] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0255] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0260] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0265] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0270] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0275] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0280] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0285] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0290] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0295] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0300] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0305] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0310] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0315] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0320] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0325] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0330] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0335] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0340] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0345] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0350] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0355] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0360] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0365] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0370] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0375] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0380] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0385] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0390] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0395] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0400] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0405] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0410] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0415] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0420] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0425] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0430] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0435] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0440] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0445] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0450] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0455] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0460] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0465] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0470] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0475] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0480] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0485] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0490] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0495] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0500] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0505] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0510] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0515] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0520] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0525] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0530] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0535] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0540] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0545] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0550] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0555] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0560] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0565] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0570] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0575] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0580] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0585] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0590] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0595] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0600] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0605] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0610] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0615] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0620] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0625] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0630] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0635] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0640] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0645] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0650] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0655] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0660] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0665] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0670] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0675] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0680] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0685] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0690] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0695] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0700] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0705] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0710] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0715] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0720] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0725] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0730] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0735] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0740] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0745] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0750] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0755] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0760] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0765] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0770] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0775] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0780] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0785] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0790] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0795] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0800] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0805] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0810] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0815] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0820] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0825] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0830] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0835] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0840] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0845] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0850] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0855] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0860] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0865] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0870] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0875] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0880] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0885] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0890] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0895] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0900] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0905] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0910] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0915] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0920] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0925] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0930] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0935] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0940] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0945] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0950] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0955] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0960] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0965] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0970] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0975] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0980] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0985] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0990] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[0995] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1015] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1020] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1025] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1030] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1035] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1040] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1045] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1050] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1055] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1060] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1065] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1070] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1075] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1080] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1085] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1090] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1095] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1100] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1105] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1110] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1115] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1120] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1125] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1130] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1135] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1140] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1145] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1150] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1155] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1160] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1165] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1170] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1175] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1180] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1185] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1190] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1195] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1200] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1205] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1210] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1215] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1220] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1225] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1230] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1235] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1240] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1245] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1250] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1255] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1260] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1265] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1270] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1275] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1280] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1285] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1290] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1295] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1300] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1305] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1310] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1315] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1320] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1325] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1330] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1335] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1340] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1345] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1350] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1355] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1360] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1365] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1370] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1375] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1380] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1385] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1390] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1395] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1400] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1405] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1410] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1415] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1420] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1425] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1430] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1435] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1440] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1445] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1450] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1455] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1460] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1465] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1470] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1475] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1480] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1485] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1490] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1495] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1500] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1505] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1510] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1515] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1520] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1525] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1530] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1535] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1540] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1545] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1550] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1555] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1560] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1565] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1570] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1575] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1580] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1585] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1590] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1595] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1600] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1605] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1610] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1615] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1620] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1625] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1630] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1635] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1640] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1645] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1650] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1655] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1660] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1665] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1670] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1675] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1680] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1685] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1690] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1695] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1700] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1705] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1710] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1715] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1720] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1725] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1730] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1735] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1740] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1745] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1750] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1755] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1760] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1765] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1770] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1775] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1780] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1785] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1790] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1795] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1800] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1805] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1810] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1815] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1820] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1825] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1830] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1835] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1840] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1845] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1850] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1855] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1860] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1865] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1870] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1875] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1880] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1885] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1890] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1895] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1900] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1905] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1910] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1915] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1920] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1925] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1930] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1935] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1940] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1945] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1950] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1955] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1960] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[34mINFO[0m[1965] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=55
+[33mWARN[0m[1967] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[1967] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[1967] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[1967] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[1967] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[1967] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[1967] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165

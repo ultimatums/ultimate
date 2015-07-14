@@ -13,11 +13,11 @@ func newMetric(_metric string, _type string) Metric {
 	return metric
 }
 
-func GaugeMetric(_metric string) Metric {
+func NewGauge(_metric string) Metric {
 	return newMetric(_metric, "gauge")
 }
 
-func CounterMetric(_metric string) Metric {
+func NewCounter(_metric string) Metric {
 	return newMetric(_metric, "counter")
 }
 

@@ -2,6 +2,7 @@ package units
 
 import (
 	"errors"
+	"reflect"
 	"sync"
 	"time"
 
@@ -26,7 +27,7 @@ type Unit interface {
 	SetInterval(model.Duration)
 	EqualTo(Unit) bool
 	Start(chan<- model.Metric)
-	fetchFunc() func(chan<- model.Metric)
+	Fetch(chan<- model.Metric)
 	Stop()
 }
 
@@ -35,7 +36,7 @@ type UnitFactory interface {
 }
 
 type BaseUnit struct {
-	Unit
+	unit Unit
 	sync.RWMutex
 	name          string
 	fetchInterval time.Duration
@@ -63,14 +64,16 @@ func (this *BaseUnit) Start(ch chan<- model.Metric) {
 	ticker := time.NewTicker(fetchInterval)
 	defer ticker.Stop()
 
-	this.fetchFunc()
+	c := reflect.ValueOf(this.unit)
+	methodFetch := c.MethodByName("Fetch")
+	methodFetch.Call([]reflect.Value{reflect.ValueOf(ch)})
 
 	for {
 		select {
 		case <-this.fetchStop:
 			return
 		case <-ticker.C:
-			this.fetchFunc()
+			methodFetch.Call([]reflect.Value{reflect.ValueOf(ch)})
 		}
 	}
 }
