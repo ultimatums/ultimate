@@ -16,6 +16,10 @@ const (
 	procStat = "/proc/stat"
 )
 
+var (
+	cpuFields = []string{"user", "nice", "system", "idle", "iowait", "irq", "softirq", "total"}
+)
+
 func init() {
 	UnitFactories[UNIT_NAME_HOST_CPU] = new(HostCpuUnitFactory)
 }
@@ -25,8 +29,8 @@ type HostCpuUnitFactory struct{}
 // createUnit implements the UnitFactory interface.
 func (this *HostCpuUnitFactory) createUnit() Unit {
 	u := &HostCpuUnit{
-		lastCPUUsage: make([]float64, 7),
-		newCPUUsage:  make([]float64, 7),
+		lastCPUUsage: make([]float64, 8),
+		newCPUUsage:  make([]float64, 8),
 
 		idle:    model.NewGauge("host.cpu.idle"),
 		user:    model.NewGauge("host.cpu.user"),
@@ -113,23 +117,28 @@ func (this *HostCpuUnit) updateStats() error {
 		if len(parts) == 0 {
 			continue
 		}
+		log.Info(parts)
 		switch parts[0] {
 		case "cpu":
 			this.lastCPUUsage = this.newCPUUsage
-			cpuFields := []string{"user", "nice", "system", "idle", "iowait", "irq", "softirq"}
-			for i, _ := range cpuFields {
+			for i, _ := range parts {
 				value, err := strconv.ParseFloat(parts[i+1], 64)
 				if err != nil {
 					return err
 				}
-				this.newCPUUsage[i] = value
+
 			}
+
 		case "intr":
 		}
 
 	}
 
 	return nil
+}
+
+func (this *HostCpuUnit) calcRate() {
+
 }
 
 type CPUUsage struct {
@@ -140,5 +149,8 @@ type CPUUsage struct {
 	iowait  float64 // (since Linux 2.5.41) (5) Time waiting for I/O to complete.
 	irq     float64 // (since Linux 2.6.0-test4) (6) Time servicing interrupts.
 	softirq float64 // (since Linux 2.6.0-test4) (7) Time servicing softirqs.
-	total   float64
+	// steal      float64 // (since Linux 2.6.11) (8) Stolen time, which is the time spent in other operating systems when running in a virtualized environment
+	// guest      float64 // (since Linux 2.6.24) (9) Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel.
+	// guest_nice float64 // (since Linux 2.6.33) (10) Time spent running a niced guest (virtual CPU for guest operating systems under the control of the Linux kernel).
+	total float64
 }
