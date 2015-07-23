@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/ultimatums/ultimate/config"
 	"github.com/ultimatums/ultimate/model"
 	"github.com/upmio/horus/log"
 )
@@ -35,18 +36,17 @@ func (this *PublisherType) publishFromQueue() {
 func (this *PublisherType) publishMetric(metric model.Metric) error {
 	ts, ok := metric["timestamp"].(model.Time)
 	if !ok {
-		return errors.New("Missing 'timestamp' field from metric.")
+		return errors.New("Missing 'timestamp' field in metric.")
 	}
 
-	_, ok = metric["input"].(string)
+	_, ok = metric["type"].(string)
 	if !ok {
-		return errors.New("Missing 'type' field from metric.")
+		return errors.New("Missing 'type' field in metric.")
 	}
 
-	//	metric["host"] = os.Hostname()
 	has_error := false
 	for _, output := range this.Outputs {
-		//TODO Try to concurrency publish.
+		// TODO Try to concurrency publish.
 		err := output.PublishMetric(time.Time(ts), metric)
 		if err != nil {
 			errors.New(fmt.Sprintf("Fail to publish metric on output: %v, error: %s", output, err))
@@ -62,12 +62,12 @@ func (this *PublisherType) publishMetric(metric model.Metric) error {
 }
 
 func (this *PublisherType) Init() {
-	//	output, isExists := config.AppConfig().Output["elasticsearch"]
+	output, isExists = config.AppConfig()
 	//	log.Debug("is Exists = ", isExists)
 	elasticOutput := &ElasticOutputType{}
-	//	if isExists {
-	//		elasticOutput.Init(output)
-	//	}
+	if isExists {
+		elasticOutput.Init(output)
+	}
 
 	this.Outputs = append(this.Outputs, Output(elasticOutput))
 

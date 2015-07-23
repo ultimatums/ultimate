@@ -27,7 +27,6 @@ type Unit interface {
 	SetInterval(model.Duration)
 	EqualTo(Unit) bool
 	Start(chan<- model.Metric)
-	Fetch(chan<- model.Metric)
 	Stop()
 }
 

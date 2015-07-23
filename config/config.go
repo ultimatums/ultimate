@@ -68,8 +68,12 @@ type OutputConfig struct {
 }
 
 type ElasticsearchConfig struct {
-	Host string
-	Port int
+	Host     string
+	Port     int
+	Protocol string
+	Username string
+	Password string
+	Index    string
 }
 
 // TaskConfig configures a fetching task.

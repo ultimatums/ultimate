@@ -1,6 +1,15 @@
 package model
 
+import (
+	"fmt"
+	"time"
+)
+
 type Metric map[string]interface{}
+
+func (m Metric) String() string {
+	return fmt.Sprintf("metric: %s,\tvalue: %v", m["metric"], m["value"].(float64))
+}
 
 func newMetric(_metric string, _type string) Metric {
 	metric := Metric{
@@ -49,6 +58,20 @@ func (m Metric) Clone() Metric {
 
 func (m Metric) SetValue(value interface{}) Metric {
 	m["value"] = value
+	return m
+}
+
+func (m Metric) GetValue() interface{} {
+	return m["value"]
+}
+
+func (m Metric) SetTimestamp(timestamp time.Time) Metric {
+	m["timestamp"] = Time(timestamp)
+	return m
+}
+
+func (m Metric) AppendTag(tagName string, tagValue interface{}) Metric {
+	m["tags"].(map[string]interface{})[tagName] = tagValue
 	return m
 }
 

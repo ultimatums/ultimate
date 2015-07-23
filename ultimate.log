@@ -4621,3 +4621,1034 @@ time="2015-07-22T11:01:06+08:00" level=info msg="Task manager stopped." file=tas
 [37mDEBU[0m[0003] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
 [37mDEBU[0m[0003] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
 [34mINFO[0m[0003] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 2872                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d7d0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last: [0 0 0 0 0 0 0 0]                       [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new:  [0 0 0 0 0 0 0 0]                       [34mfile[0m=host_cpu.go [34mline[0m=115
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0000] The process id is 3878                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d7d0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last: [0 0 0 0 0 0 0 0]                       [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new:  [0 0 0 0 0 0 0 0]                       [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0000] The process id is 3931                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last: [0 0 0 0 0 0 0 0]                       [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new:  [0 0 0 0 0 0 0 0]                       [34mfile[0m=host_cpu.go [34mline[0m=115
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0001] last: [0 2.300419e+06 18540 758480 1.2547335e+07 125056 19 1.5754337e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0001] new:  [0 2.300419e+06 18540 758480 1.2547335e+07 125056 19 1.5754337e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0002] last: [0 2.300427e+06 18540 758486 1.2547715e+07 125057 19 1.5754732e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0002] new:  [0 2.300427e+06 18540 758486 1.2547715e+07 125057 19 1.5754732e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0003] last: [0 2.300435e+06 18540 758489 1.25481e+07 125059 19 1.575513e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0003] new:  [0 2.300435e+06 18540 758489 1.25481e+07 125059 19 1.575513e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0004] last: [0 2.300444e+06 18540 758494 1.2548474e+07 125069 19 1.5755528e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0004] new:  [0 2.300444e+06 18540 758494 1.2548474e+07 125069 19 1.5755528e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0005] last: [0 2.300449e+06 18540 758497 1.2548855e+07 125074 19 1.5755922e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0005] new:  [0 2.300449e+06 18540 758497 1.2548855e+07 125074 19 1.5755922e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[33mWARN[0m[0005] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0005] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0005] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0005] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0005] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0005] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0005] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 6684                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d7d0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new --->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=115
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0001] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0001] new --->[0 2.318034e+06 18541 762137 1.2726564e+07 127780 19 1.5957575e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0002] last--->[0 2.318034e+06 18541 762137 1.2726564e+07 127780 19 1.5957575e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0002] new --->[0 2.318054e+06 18541 762143 1.2726938e+07 127782 19 1.5957977e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0003] last--->[0 2.318054e+06 18541 762143 1.2726938e+07 127782 19 1.5957977e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0003] new --->[0 2.318079e+06 18541 762151 1.2727308e+07 127788 19 1.5958386e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0004] last--->[0 2.318079e+06 18541 762151 1.2727308e+07 127788 19 1.5958386e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0004] new --->[0 2.318094e+06 18541 762156 1.2727689e+07 127790 19 1.5958789e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0005] last--->[0 2.318094e+06 18541 762156 1.2727689e+07 127790 19 1.5958789e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0005] new --->[0 2.318109e+06 18541 762164 1.2728065e+07 127791 19 1.5959189e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[33mWARN[0m[0005] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0005] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0005] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0005] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0005] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0005] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0005] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 11078                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new --->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0000] idle=map[metric:host.cpu.idle type:gauge tags:map[]],user=map[metric:host.cpu.user type:gauge tags:map[]],nice=map[metric:host.cpu.nice type:gauge tags:map[]],system=map[type:gauge tags:map[] metric:host.cpu.system],iowait=map[metric:host.cpu.iowait type:gauge tags:map[]],irq=map[metric:host.cpu.irq type:gauge tags:map[]],softirq=map[tags:map[] metric:host.cpu.softirq type:gauge]  [34mfile[0m=host_cpu.go [34mline[0m=116
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0001] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0001] new --->[0 2.335206e+06 18542 766862 1.3000298e+07 130311 19 1.6255752e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0001] idle=map[metric:host.cpu.idle type:gauge tags:map[] value:0],user=map[metric:host.cpu.user type:gauge tags:map[] value:14.365413547155493],nice=map[type:gauge tags:map[] value:0.11406424015327006 metric:host.cpu.nice],system=map[tags:map[] value:4.717480926136176 metric:host.cpu.system type:gauge],iowait=map[value:79.97352567878742 metric:host.cpu.iowait type:gauge tags:map[]],irq=map[type:gauge tags:map[] value:0.8016300937661943 metric:host.cpu.irq],softirq=map[metric:host.cpu.softirq type:gauge tags:map[] value:0.00011688170439608085]  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0002] last--->[0 2.335206e+06 18542 766862 1.3000298e+07 130311 19 1.6255752e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0002] new --->[0 2.335477e+06 18542 766870 1.300042e+07 130311 19 1.6256153e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0002] idle=map[value:0 metric:host.cpu.idle type:gauge tags:map[]],user=map[type:gauge tags:map[] value:67.58104738154613 metric:host.cpu.user],nice=map[tags:map[] value:0 metric:host.cpu.nice type:gauge],system=map[metric:host.cpu.system type:gauge tags:map[] value:1.9950124688279303],iowait=map[metric:host.cpu.iowait type:gauge tags:map[] value:30.423940149625935],irq=map[metric:host.cpu.irq type:gauge tags:map[] value:0],softirq=map[metric:host.cpu.softirq type:gauge tags:map[] value:0]  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0003] last--->[0 2.335477e+06 18542 766870 1.300042e+07 130311 19 1.6256153e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0003] new --->[0 2.335607e+06 18542 766878 1.300068e+07 130312 19 1.6256552e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0003] idle=map[metric:host.cpu.idle type:gauge tags:map[] value:0],user=map[metric:host.cpu.user type:gauge tags:map[] value:32.581453634085214],nice=map[metric:host.cpu.nice type:gauge tags:map[] value:0],system=map[value:2.0050125313283207 metric:host.cpu.system type:gauge tags:map[]],iowait=map[metric:host.cpu.iowait type:gauge tags:map[] value:65.16290726817043],irq=map[metric:host.cpu.irq type:gauge tags:map[] value:0.2506265664160401],softirq=map[metric:host.cpu.softirq type:gauge tags:map[] value:0]  [34mfile[0m=host_cpu.go [34mline[0m=116
+[33mWARN[0m[0003] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0003] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0003] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0003] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0003] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0003] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0003] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 11757                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new --->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0000] idle=%!v(PANIC=interface conversion: interface is nil, not string),user=%!v(PANIC=interface conversion: interface is nil, not string),nice=%!v(PANIC=interface conversion: interface is nil, not string),system=%!v(PANIC=interface conversion: interface is nil, not string),iowait=%!v(PANIC=interface conversion: interface is nil, not string),irq=%!v(PANIC=interface conversion: interface is nil, not string),softirq=%!v(PANIC=interface conversion: interface is nil, not string)  [34mfile[0m=host_cpu.go [34mline[0m=116
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0001] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0001] new --->[0 2.337096e+06 18542 767537 1.3042111e+07 130716 19 1.6300536e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0001] idle=%!v(PANIC=interface conversion: interface is float64, not string),user=%!v(PANIC=interface conversion: interface is float64, not string),nice=%!v(PANIC=interface conversion: interface is float64, not string),system=%!v(PANIC=interface conversion: interface is float64, not string),iowait=%!v(PANIC=interface conversion: interface is float64, not string),irq=%!v(PANIC=interface conversion: interface is float64, not string),softirq=%!v(PANIC=interface conversion: interface is float64, not string)  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0002] last--->[0 2.337096e+06 18542 767537 1.3042111e+07 130716 19 1.6300536e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0002] new --->[0 2.3371e+06 18542 767543 1.3042499e+07 130717 19 1.6300935e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0002] idle=%!v(PANIC=interface conversion: interface is float64, not string),user=%!v(PANIC=interface conversion: interface is float64, not string),nice=%!v(PANIC=interface conversion: interface is float64, not string),system=%!v(PANIC=interface conversion: interface is float64, not string),iowait=%!v(PANIC=interface conversion: interface is float64, not string),irq=%!v(PANIC=interface conversion: interface is float64, not string),softirq=%!v(PANIC=interface conversion: interface is float64, not string)  [34mfile[0m=host_cpu.go [34mline[0m=116
+[33mWARN[0m[0002] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0002] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0002] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0002] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0002] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0002] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0002] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 13044                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d7d0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new --->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0000] idle=%!v(PANIC=interface conversion: interface is nil, not float64),user=%!v(PANIC=interface conversion: interface is nil, not float64),nice=%!v(PANIC=interface conversion: interface is nil, not float64),system=%!v(PANIC=interface conversion: interface is nil, not float64),iowait=%!v(PANIC=interface conversion: interface is nil, not float64),irq=%!v(PANIC=interface conversion: interface is nil, not float64),softirq=%!v(PANIC=interface conversion: interface is nil, not float64)  [34mfile[0m=host_cpu.go [34mline[0m=116
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0001] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0001] new --->[0 2.340299e+06 18543 768849 1.3128384e+07 131229 19 1.6391842e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0001] idle=%!v(PANIC=interface conversion: interface is nil, not float64),user=%!v(PANIC=interface conversion: interface is nil, not float64),nice=%!v(PANIC=interface conversion: interface is nil, not float64),system=%!v(PANIC=interface conversion: interface is nil, not float64),iowait=%!v(PANIC=interface conversion: interface is nil, not float64),irq=%!v(PANIC=interface conversion: interface is nil, not float64),softirq=%!v(PANIC=interface conversion: interface is nil, not float64)  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0002] last--->[0 2.340299e+06 18543 768849 1.3128384e+07 131229 19 1.6391842e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0002] new --->[0 2.340309e+06 18543 768858 1.3128762e+07 131230 19 1.639224e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0002] idle=0,user=2.512562814070352,nice=0,system=2.2613065326633164,iowait=94.9748743718593,irq=0.25125628140703515,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0003] last--->[0 2.340309e+06 18543 768858 1.3128762e+07 131230 19 1.639224e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0003] new --->[0 2.340318e+06 18543 768860 1.3129148e+07 131231 19 1.6392638e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0003] idle=0,user=2.2613065326633164,nice=0,system=0.5025125628140703,iowait=96.98492462311557,irq=0.25125628140703515,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0004] last--->[0 2.340318e+06 18543 768860 1.3129148e+07 131231 19 1.6392638e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0004] new --->[0 2.340327e+06 18543 768864 1.3129532e+07 131233 19 1.6393037e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0004] idle=0,user=2.255639097744361,nice=0,system=1.0025062656641603,iowait=96.2406015037594,irq=0.5012531328320802,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0005] last--->[0 2.340327e+06 18543 768864 1.3129532e+07 131233 19 1.6393037e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0005] new --->[0 2.340339e+06 18543 768867 1.3129908e+07 131241 19 1.6393436e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0005] idle=0,user=3.007518796992481,nice=0,system=0.7518796992481203,iowait=94.23558897243107,irq=2.0050125313283207,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0006] last--->[0 2.340339e+06 18543 768867 1.3129908e+07 131241 19 1.6393436e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0006] new --->[0 2.340346e+06 18543 768872 1.3130293e+07 131242 19 1.6393834e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0006] idle=0,user=1.7587939698492463,nice=0,system=1.256281407035176,iowait=96.73366834170854,irq=0.25125628140703515,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0007] last--->[0 2.340346e+06 18543 768872 1.3130293e+07 131242 19 1.6393834e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0007] new --->[0 2.340352e+06 18543 768874 1.3130682e+07 131243 19 1.6394232e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0007] idle=0,user=1.5075376884422111,nice=0,system=0.5025125628140703,iowait=97.73869346733669,irq=0.25125628140703515,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0008] last--->[0 2.340352e+06 18543 768874 1.3130682e+07 131243 19 1.6394232e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0008] new --->[0 2.340364e+06 18543 768881 1.313106e+07 131245 19 1.6394631e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0008] idle=0,user=3.007518796992481,nice=0,system=1.7543859649122806,iowait=94.73684210526316,irq=0.5012531328320802,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0009] last--->[0 2.340364e+06 18543 768881 1.313106e+07 131245 19 1.6394631e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0009] new --->[0 2.340373e+06 18543 768886 1.3131447e+07 131247 19 1.6395034e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0009] idle=0,user=2.2332506203473947,nice=0,system=1.2406947890818858,iowait=96.02977667493796,irq=0.49627791563275436,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[33mWARN[0m[0009] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0009] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0009] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0009] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0009] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0009] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0009] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 13800                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0000] new --->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0000] idle=%!v(PANIC=interface conversion: interface is nil, not float64),user=%!v(PANIC=interface conversion: interface is nil, not float64),nice=%!v(PANIC=interface conversion: interface is nil, not float64),system=%!v(PANIC=interface conversion: interface is nil, not float64),iowait=%!v(PANIC=interface conversion: interface is nil, not float64),irq=%!v(PANIC=interface conversion: interface is nil, not float64),softirq=%!v(PANIC=interface conversion: interface is nil, not float64)  [34mfile[0m=host_cpu.go [34mline[0m=116
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0001] last--->[0 0 0 0 0 0 0 0]                     [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0001] new --->[2.342243e+06 18543 769726 1.3183465e+07 131610 19 4520 1.6450126e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0001] idle=%!v(PANIC=interface conversion: interface is nil, not float64),user=%!v(PANIC=interface conversion: interface is nil, not float64),nice=%!v(PANIC=interface conversion: interface is nil, not float64),system=%!v(PANIC=interface conversion: interface is nil, not float64),iowait=%!v(PANIC=interface conversion: interface is nil, not float64),irq=%!v(PANIC=interface conversion: interface is nil, not float64),softirq=%!v(PANIC=interface conversion: interface is nil, not float64)  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0002] last--->[2.342243e+06 18543 769726 1.3183465e+07 131610 19 4520 1.6450126e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0002] new --->[2.342249e+06 18543 769731 1.3183851e+07 131612 19 4520 1.6450525e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0002] idle=1.5037593984962405,user=0,nice=1.2531328320802004,system=96.74185463659148,iowait=0.5012531328320802,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0003] last--->[2.342249e+06 18543 769731 1.3183851e+07 131612 19 4520 1.6450525e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0003] new --->[2.342261e+06 18543 769736 1.3184198e+07 131642 19 4520 1.6450919e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0003] idle=3.045685279187817,user=0,nice=1.2690355329949239,system=88.07106598984771,iowait=7.614213197969543,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0004] last--->[2.342261e+06 18543 769736 1.3184198e+07 131642 19 4520 1.6450919e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0004] new --->[2.342273e+06 18543 769740 1.3184581e+07 131642 19 4520 1.6451318e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0004] idle=3.007518796992481,user=0,nice=1.0025062656641603,system=95.98997493734336,iowait=0,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0005] last--->[2.342273e+06 18543 769740 1.3184581e+07 131642 19 4520 1.6451318e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0005] new --->[2.342285e+06 18543 769747 1.3184959e+07 131644 19 4520 1.6451717e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0005] idle=3.007518796992481,user=0,nice=1.7543859649122806,system=94.73684210526316,iowait=0.5012531328320802,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0006] last--->[2.342285e+06 18543 769747 1.3184959e+07 131644 19 4520 1.6451717e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0006] new --->[2.342296e+06 18543 769752 1.3185339e+07 131645 19 4520 1.6452114e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0006] idle=2.770780856423174,user=0,nice=1.2594458438287153,system=95.71788413098237,iowait=0.2518891687657431,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0007] last--->[2.342296e+06 18543 769752 1.3185339e+07 131645 19 4520 1.6452114e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0007] new --->[2.342306e+06 18543 769758 1.3185719e+07 131646 19 4520 1.6452511e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0007] idle=2.5188916876574305,user=0,nice=1.5113350125944585,system=95.71788413098237,iowait=0.2518891687657431,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0008] last--->[2.342306e+06 18543 769758 1.3185719e+07 131646 19 4520 1.6452511e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0008] new --->[2.342321e+06 18543 769764 1.3186069e+07 131677 19 4520 1.6452913e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0008] idle=3.7313432835820897,user=0,nice=1.492537313432836,system=87.06467661691542,iowait=7.711442786069652,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0009] last--->[2.342321e+06 18543 769764 1.3186069e+07 131677 19 4520 1.6452913e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0009] new --->[2.342332e+06 18543 769768 1.318645e+07 131679 19 4520 1.6453311e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0009] idle=2.763819095477387,user=0,nice=1.0050251256281406,system=95.7286432160804,iowait=0.5025125628140703,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0010] last--->[2.342332e+06 18543 769768 1.318645e+07 131679 19 4520 1.6453311e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0010] new --->[2.342341e+06 18543 769777 1.3186835e+07 131680 19 4520 1.6453715e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0010] idle=2.227722772277228,user=0,nice=2.227722772277228,system=95.29702970297029,iowait=0.24752475247524752,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0011] last--->[2.342341e+06 18543 769777 1.3186835e+07 131680 19 4520 1.6453715e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0011] new --->[2.342352e+06 18543 769781 1.3187214e+07 131681 19 4520 1.645411e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0011] idle=2.7848101265822787,user=0,nice=1.0126582278481013,system=95.9493670886076,iowait=0.25316455696202533,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0012] last--->[2.342352e+06 18543 769781 1.3187214e+07 131681 19 4520 1.645411e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0012] new --->[2.342361e+06 18543 769787 1.3187596e+07 131683 19 4520 1.6454509e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0012] idle=2.255639097744361,user=0,nice=1.5037593984962405,system=95.73934837092732,iowait=0.5012531328320802,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[34mINFO[0m[0013] last--->[2.342361e+06 18543 769787 1.3187596e+07 131683 19 4520 1.6454509e+07]  [34mfile[0m=host_cpu.go [34mline[0m=114
+[34mINFO[0m[0013] new --->[2.342376e+06 18543 769793 1.3187946e+07 131712 19 4520 1.6454909e+07]  [34mfile[0m=host_cpu.go [34mline[0m=115
+[34mINFO[0m[0013] idle=3.75,user=0,nice=1.5,system=87.5,iowait=7.25,irq=0,softirq=0  [34mfile[0m=host_cpu.go [34mline[0m=116
+[33mWARN[0m[0013] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0013] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0013] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0013] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0013] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0013] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0013] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 25946                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0015] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0020] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[34mINFO[0m[0025] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=103
+[33mWARN[0m[0026] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0026] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0026] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0026] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0026] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0026] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0026] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 8959                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] [intr 93443646 19 99587 0 0 0 0 0 0 1 142 0 0 4118362 0 0 0 49 0 0 0 0 0 0 57 0 0 1357592 9 25 1355009 13 155 6543481 2182989 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=121
+[34mINFO[0m[0001] [intr 93445223 19 99588 0 0 0 0 0 0 1 142 0 0 4118362 0 0 0 49 0 0 0 0 0 0 57 0 0 1357592 9 25 1355009 13 155 6543691 2183064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0002] [intr 93447155 19 99589 0 0 0 0 0 0 1 142 0 0 4118593 0 0 0 49 0 0 0 0 0 0 57 0 0 1357592 9 25 1355014 13 155 6543902 2183149 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[33mWARN[0m[0002] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0002] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0002] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0002] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0002] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0002] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0002] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 9803                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d7d0]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] [intr 93720676 19 100018 0 0 0 0 0 0 1 142 0 0 4131694 0 0 0 49 0 0 0 0 0 0 57 0 0 1360598 9 25 1355701 13 155 6573829 2192632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0000] [ctxt 504486654]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0000] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=121
+[31mERRO[0m[0000] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0000] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0000] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0001] [intr 93722334 19 100019 0 0 0 0 0 0 1 142 0 0 4131694 0 0 0 49 0 0 0 0 0 0 57 0 0 1360598 9 25 1355701 13 155 6574040 2192716 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0001] [ctxt 504499841]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0001] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[34mINFO[0m[0002] [intr 93724290 19 100019 0 0 0 0 0 0 1 142 0 0 4131790 0 0 0 49 0 0 0 0 0 0 57 0 0 1360637 9 25 1355703 13 155 6574252 2192776 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0002] [ctxt 504512090]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0002] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[34mINFO[0m[0003] [intr 93726348 19 100019 0 0 0 0 0 0 1 142 0 0 4132360 0 0 0 49 0 0 0 0 0 0 57 0 0 1360662 9 25 1355707 13 155 6574462 2192798 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0003] [ctxt 504524527]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0003] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[33mWARN[0m[0003] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0003] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0003] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0003] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0003] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0003] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0003] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 10472                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] [intr 93962432 19 100115 0 0 0 0 0 0 1 142 0 0 4135066 0 0 0 49 0 0 0 0 0 0 57 0 0 1362493 9 25 1356393 13 155 6603884 2203874 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0000] [ctxt 506127621]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0000] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[34mINFO[0m[0000] [processes 677130]                            [34mfile[0m=host_cpu.go [34mline[0m=187
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=121
+[31mERRO[0m[0000] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0000] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0000] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0001] [intr 93964928 19 100116 0 0 0 0 0 0 1 142 0 0 4135066 0 0 0 49 0 0 0 0 0 0 57 0 0 1362493 9 25 1356396 13 155 6604107 2203946 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0001] [ctxt 506140840]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0001] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[34mINFO[0m[0001] [processes 677150]                            [34mfile[0m=host_cpu.go [34mline[0m=187
+[34mINFO[0m[0002] [intr 93966740 19 100116 0 0 0 0 0 0 1 142 0 0 4135066 0 0 0 49 0 0 0 0 0 0 57 0 0 1362493 9 25 1356431 13 155 6604340 2204028 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0002] [ctxt 506152887]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0002] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[34mINFO[0m[0002] [processes 677151]                            [34mfile[0m=host_cpu.go [34mline[0m=187
+[34mINFO[0m[0003] [intr 93968750 19 100117 0 0 0 0 0 0 1 142 0 0 4135173 0 0 0 49 0 0 0 0 0 0 57 0 0 1362493 9 25 1356478 13 155 6604563 2204122 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]  [34mfile[0m=host_cpu.go [34mline[0m=166
+[34mINFO[0m[0003] [ctxt 506165311]                              [34mfile[0m=host_cpu.go [34mline[0m=173
+[34mINFO[0m[0003] [btime 1437442611]                            [34mfile[0m=host_cpu.go [34mline[0m=180
+[34mINFO[0m[0003] [processes 677161]                            [34mfile[0m=host_cpu.go [34mline[0m=187
+[33mWARN[0m[0003] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0003] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0003] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0003] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0003] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0003] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0003] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 8239                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0005] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0010] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0010] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0010] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0010] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0010] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0010] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0010] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0015] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0015] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0015] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0015] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0015] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0015] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0015] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0015] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0020] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0020] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0020] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0020] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0020] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0020] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0020] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0020] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0025] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0025] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0025] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0025] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0025] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0025] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0025] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0025] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0030] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0030] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0030] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0030] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0030] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0030] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0030] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0030] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0035] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0035] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0035] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0035] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0035] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0035] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0035] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0035] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0040] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0040] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0040] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0040] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0040] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0040] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0040] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0040] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0045] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0045] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0045] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0045] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0045] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0045] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0045] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0045] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0050] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0050] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0050] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0050] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0050] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0050] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0050] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0050] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0055] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0055] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0055] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0055] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0055] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0055] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0055] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0055] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0060] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0060] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0060] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0060] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0060] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0060] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0060] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0060] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0065] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0065] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0065] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0065] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0065] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0065] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0065] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0065] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0070] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0070] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0070] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0070] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0070] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0070] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0070] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0070] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0075] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0075] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0075] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0075] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0075] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0075] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0075] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0075] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0080] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0080] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0080] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0080] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0080] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0080] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0080] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0080] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0085] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0085] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0085] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0085] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0085] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0085] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0085] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0085] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0090] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0090] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0090] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0090] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0090] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0090] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0090] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0090] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0095] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0095] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0095] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0095] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0095] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0095] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0095] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0095] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0100] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0100] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0100] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0100] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0100] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0100] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0100] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0100] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0105] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0105] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0105] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0105] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0105] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0105] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0105] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0105] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0110] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0110] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0110] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0110] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0110] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0110] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0110] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0110] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0115] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0115] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0115] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0115] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0115] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0115] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0115] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0115] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0120] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0120] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0120] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0120] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0120] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0120] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0120] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0120] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0125] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0125] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0125] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0125] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0125] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0125] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0125] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0125] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0130] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0130] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0130] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0130] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0130] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0130] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0130] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0130] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0135] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0135] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0135] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0135] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0135] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0135] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0135] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0135] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0140] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0140] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0140] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0140] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0140] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0140] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0140] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0140] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0145] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0145] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0145] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0145] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0145] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0145] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0145] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0145] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0150] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0150] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0150] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0150] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0150] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0150] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0150] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0150] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0155] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0155] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0155] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0155] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0155] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0155] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0155] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0155] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0160] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0160] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0160] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0160] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0160] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0160] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0160] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0160] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0165] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0165] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0165] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0165] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0165] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0165] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0165] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0165] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0170] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0170] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0170] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0170] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0170] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0170] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0170] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0170] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0175] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0175] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0175] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0175] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0175] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0175] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0175] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0175] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0180] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0180] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0180] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0180] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0180] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0180] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0180] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0180] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0185] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0185] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0185] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0185] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0185] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0185] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0185] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0185] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0190] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0190] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0190] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0190] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0190] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0190] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0190] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0190] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0195] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0195] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0195] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0195] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0195] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0195] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0195] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0195] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0200] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0200] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0200] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0200] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0200] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0200] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0200] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0200] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0205] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0205] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0205] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0205] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0205] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0205] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0205] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0205] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0210] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0210] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0210] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0210] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0210] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0210] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0210] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0210] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0215] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0215] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0215] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0215] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0215] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0215] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0215] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0215] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0220] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0220] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0220] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0220] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0220] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0220] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0220] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0220] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0225] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0225] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0225] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0225] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0225] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0225] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0225] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0225] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0230] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0230] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0230] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0230] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0230] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0230] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0230] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0230] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0235] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0235] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0235] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0235] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0235] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0235] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0235] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0235] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0240] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0240] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0240] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0240] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0240] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0240] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0240] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0240] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0245] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0245] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0245] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0245] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0245] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0245] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0245] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0245] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0250] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0250] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0250] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0250] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0250] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0250] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0250] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0250] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0255] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0255] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0255] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0255] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0255] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0255] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0255] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0255] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0260] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0260] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0260] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0260] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0260] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0260] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0260] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0260] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0265] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0265] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0265] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0265] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0265] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0265] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0265] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0265] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0270] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0270] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0270] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0270] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0270] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0270] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0270] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0270] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[34mINFO[0m[0275] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0275] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0275] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0275] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0275] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0275] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0275] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0275] Missing 'timestamp' field from metric.        [31mfile[0m=publish.go [31mline[0m=30
+[33mWARN[0m[0277] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0277] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0277] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0277] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0277] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0277] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0277] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 15710                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[31mERRO[0m[0005] Missing 'type' field from metric.             [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'type' field from metric.             [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'type' field from metric.             [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'type' field from metric.             [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'type' field from metric.             [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'type' field from metric.             [31mfile[0m=publish.go [31mline[0m=30
+[31mERRO[0m[0005] Missing 'type' field from metric.             [31mfile[0m=publish.go [31mline[0m=30
+[33mWARN[0m[0007] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0007] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0007] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0007] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0007] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0007] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0007] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 18721                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0015] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[33mWARN[0m[0017] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0017] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0017] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0017] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0017] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0017] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0017] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 20335                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[33mWARN[0m[0009] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0009] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0009] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0009] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0009] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0009] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0009] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 20502                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da10]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[key1:value1 docker_endpoint:unix:///var/run/docker.sock] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=111
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=62
+[34mINFO[0m[0000] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0005] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[34mINFO[0m[0010] in host cpu fetch...                          [34mfile[0m=host_cpu.go [34mline[0m=111
+[33mWARN[0m[0012] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=90
+[34mINFO[0m[0012] See you again!                                [34mfile[0m=main.go [34mline[0m=94
+[34mINFO[0m[0012] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=137
+[37mDEBU[0m[0012] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[37mDEBU[0m[0012] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=83
+[37mDEBU[0m[0012] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=85
+[34mINFO[0m[0012] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 9794                        [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da40]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=110
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=61
+[34mINFO[0m[0000] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0005] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0000] The process id is 11582                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=129
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803d800]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=172
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:host_cpu                 [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = host_cpu                        [34mfile[0m=unit.go [34mline[0m=110
+[34mINFO[0m[0000] ---------------                               [34mfile[0m=taskmanager.go [34mline[0m=119
+[34mINFO[0m[0000] units = map[host:sample:host_cpu:host_cpu]    [34mfile[0m=taskmanager.go [34mline[0m=123
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=61
+[34mINFO[0m[0000] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0005] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112

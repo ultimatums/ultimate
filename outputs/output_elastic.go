@@ -4,8 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mattbaird/elastigo/lib"
+	"github.com/ultimatums/ultimate/config"
 	"github.com/ultimatums/ultimate/model"
+	"github.com/upmio/horus/log"
+
+	"github.com/mattbaird/elastigo/lib"
 )
 
 type ElasticOutputType struct {
@@ -16,32 +19,34 @@ var (
 	elasticConn *elastigo.Conn
 )
 
-func (out *ElasticOutputType) Init( /*cfg *config.OutputConfig*/ ) {
-	/*
-		elasticConn = elastigo.NewConn()
-		elasticConn.Domain = cfg.Host
-		elasticConn.Port = fmt.Sprintf("%d", cfg.Port)
-		elasticConn.Username = cfg.Username
-		elasticConn.Password = cfg.Password
+func (out *ElasticOutputType) Init(cfg *config.ElasticsearchConfig) {
 
-		if cfg.Protocol != "" {
-			elasticConn.Protocol = cfg.Protocol
-		}
+	elasticConn = elastigo.NewConn()
+	elasticConn.Domain = cfg.Host
+	elasticConn.Port = fmt.Sprintf("%d", cfg.Port)
+	elasticConn.Username = cfg.Username
+	elasticConn.Password = cfg.Password
 
-		if cfg.Index != "" {
-			out.Index = cfg.Index
-		} else {
-			out.Index = "horus"
-		}
+	if cfg.Protocol != "" {
+		elasticConn.Protocol = cfg.Protocol
+	}
 
-		log.Infof("[ElasticOutput] Using Elasticsearch %s://%s:%s", elasticConn.Protocol, elasticConn.Domain, elasticConn.Port)
-		log.Infof("[ElasticOutput] Using index pattern [%s-]YYYY.MM.DD", out.Index)
-	*/
+	if cfg.Index != "" {
+		out.Index = cfg.Index
+	} else {
+		out.Index = "horus"
+	}
+
+	log.Infof("[ElasticOutput] Using Elasticsearch %s://%s:%s", elasticConn.Protocol, elasticConn.Domain, elasticConn.Port)
+	log.Infof("[ElasticOutput] Using index pattern [%s-]YYYY.MM.DD", out.Index)
+
 }
 
 // PublishMetric implements the Output interface.
-func (out *ElasticOutputType) PublishMetric(ts time.Time, metrics model.Metric) error {
+func (out *ElasticOutputType) PublishMetric(ts time.Time, metric model.Metric) error {
 	index := fmt.Sprintf("%s-%s", out.Index, ts.Format("2006.01.02"))
-	_, err := elasticConn.Index(index, metrics["input"].(string), "", nil, metrics)
+	fmt.Println(metric)
+	//	return nil
+	_, err := elasticConn.Index(index, metric["type"].(string), "", nil, metric)
 	return err
 }
