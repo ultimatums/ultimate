@@ -116,7 +116,6 @@ func (tm *TaskManager) updateUnits(unitCfg *config.UnitConfig, taskCfg *config.T
 			// delete(tm.units, id)
 		}
 	} else {
-		log.Println("---------------")
 		go newUnit.Start(tm.publisher.Queue)
 		tm.units[id] = newUnit
 	}

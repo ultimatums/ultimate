@@ -1,8 +1,6 @@
 package outputs
 
 import (
-	"errors"
-	"fmt"
 	"time"
 
 	"github.com/ultimatums/ultimate/config"
@@ -10,71 +8,86 @@ import (
 	"github.com/upmio/horus/log"
 )
 
+const (
+	output_elastic = "elasticsearch"
+	output_hadoop  = "hadoop"
+)
+
 var (
 	Publisher = NewPublisherType()
 )
 
 type PublisherType struct {
-	Outputs []Output
-	Queue   chan model.Metric
-	//	ElasticOutput ElasticOutputType
+	Outputs       map[string]Output
+	Queue         chan model.Metric
+	ElasticOutput *ElasticOutputType
+	publistStop   chan struct{}
 }
 
 func NewPublisherType() *PublisherType {
-	return &PublisherType{}
+	publisher := PublisherType{
+		publistStop: make(chan struct{}),
+		Outputs:     make(map[string]Output),
+		Queue:       make(chan model.Metric, 200),
+	}
+	return &publisher
 }
 
 func (this *PublisherType) publishFromQueue() {
-	for metric := range this.Queue {
-		err := this.publishMetric(metric)
-		if err != nil {
-			log.Error(err)
+	for {
+		select {
+		case metric := <-this.Queue:
+			this.publishMetric(metric)
+		case <-this.publistStop:
+			log.Debug("Done: This is publishFromQueue goroutine.")
+			return
 		}
 	}
+	/*
+		for metric := range this.Queue {
+			this.publishMetric(metric)
+		}
+	*/
 }
 
-func (this *PublisherType) publishMetric(metric model.Metric) error {
+func (this *PublisherType) publishMetric(metric model.Metric) {
 	ts, ok := metric["timestamp"].(model.Time)
 	if !ok {
-		return errors.New("Missing 'timestamp' field in metric.")
+		log.Error("Missing 'timestamp' field in metric.")
 	}
 
 	_, ok = metric["type"].(string)
 	if !ok {
-		return errors.New("Missing 'type' field in metric.")
+		log.Error("Missing 'type' field in metric.")
 	}
 
-	has_error := false
-	for _, output := range this.Outputs {
+	for name, output := range this.Outputs {
 		// TODO Try to concurrency publish.
 		err := output.PublishMetric(time.Time(ts), metric)
 		if err != nil {
-			errors.New(fmt.Sprintf("Fail to publish metric on output: %v, error: %s", output, err))
-			has_error = true
+			log.Errorf("Fail to publish metric on output: %s, error: %s", name, err)
 		}
 	}
-
-	if has_error {
-		return errors.New("Fail to publish metrics")
-	}
-
-	return nil
 }
 
-func (this *PublisherType) Init() {
-	output, isExists = config.AppConfig()
-	//	log.Debug("is Exists = ", isExists)
-	elasticOutput := &ElasticOutputType{}
-	if isExists {
-		elasticOutput.Init(output)
+func (this *PublisherType) ApplyConfig(cfg *config.Config) {
+	this.StopPublish()
+
+	if cfg.OutputConfig.Elasticsearch != nil {
+		if this.ElasticOutput == nil {
+			this.ElasticOutput = &ElasticOutputType{}
+		}
+		this.ElasticOutput.Init(cfg.OutputConfig.Elasticsearch)
+		this.Outputs[output_elastic] = this.ElasticOutput
 	}
 
-	this.Outputs = append(this.Outputs, Output(elasticOutput))
-
-	// TODO other outputs initalize...
-
-	this.Queue = make(chan model.Metric, 200)
+	this.publistStop = make(chan struct{})
 	go this.publishFromQueue()
+}
+
+func (this *PublisherType) StopPublish() {
+	log.Info("Stoping publish...")
+	close(this.publistStop) // stop publishFromQueue gorutine
 }
 
 // Output identifier

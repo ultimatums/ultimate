@@ -3,16 +3,16 @@ package config
 import (
 	"fmt"
 	"io/ioutil"
-	"time"
 
 	"github.com/ultimatums/ultimate/model"
 
 	"gopkg.in/yaml.v2"
 )
 
+/*
 var (
 	DefaultConfig = Config{
-		GlobalConfig: DefaultGlobalConfig,
+		GlobalConfig: &DefaultGlobalConfig,
 	}
 
 	DefaultGlobalConfig = GlobalConfig{
@@ -21,6 +21,7 @@ var (
 
 	DefaultTaskConfig = TaskConfig{}
 )
+*/
 
 func LoadConfig(filename string) (*Config, error) {
 	content, err := ioutil.ReadFile(filename)
@@ -39,8 +40,8 @@ func LoadConfig(filename string) (*Config, error) {
 
 // Config is the top_level configuration.
 type Config struct {
-	GlobalConfig GlobalConfig  `yaml:"global"`
-	OutputConfig OutputConfig  `yaml:"output_config"`
+	GlobalConfig *GlobalConfig `yaml:"global"`
+	OutputConfig *OutputConfig `yaml:"output_config"`
 	TaskConfigs  []*TaskConfig `yaml:"task_configs,omitempty"`
 
 	//raw is the orginal content from the configuration file.
@@ -64,7 +65,7 @@ type GlobalConfig struct {
 }
 
 type OutputConfig struct {
-	Elasticsearch ElasticsearchConfig `yaml:"elasticsearch,omitempty"`
+	Elasticsearch *ElasticsearchConfig `yaml:"elasticsearch,omitempty"`
 }
 
 type ElasticsearchConfig struct {

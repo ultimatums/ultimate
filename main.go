@@ -58,11 +58,10 @@ func main() {
 	defer os.Remove(PID_FILE)
 
 	publisher := outputs.NewPublisherType()
-	publisher.Init()
 
 	taskManager := fetch.NewTaskManager(publisher)
 
-	if !reloadConfig(*cfgFileFlag, taskManager) {
+	if !reloadConfig(*cfgFileFlag, publisher, taskManager) {
 		os.Exit(1)
 	}
 
@@ -73,12 +72,14 @@ func main() {
 	go func() {
 		<-hupReady
 		for range hupCh {
-			reloadConfig(*cfgFileFlag, taskManager)
+			reloadConfig(*cfgFileFlag, publisher, taskManager)
 		}
 	}()
 
 	go taskManager.Run()
 	defer taskManager.Stop()
+
+	defer publisher.StopPublish()
 
 	close(hupReady)
 
@@ -125,7 +126,11 @@ func notifyReload() {
 	}
 }
 
-func reloadConfig(filename string, taskManager *fetch.TaskManager) bool {
+type Reloadable interface {
+	ApplyConfig(cfg *config.Config)
+}
+
+func reloadConfig(filename string, rls ...Reloadable) bool {
 	log.Infof("Loading configuration file %s", filename)
 
 	cfg, err := config.LoadConfig(filename)
@@ -134,6 +139,9 @@ func reloadConfig(filename string, taskManager *fetch.TaskManager) bool {
 		return false
 	}
 
-	taskManager.ApplyConfig(cfg)
+	for _, rl := range rls {
+		rl.ApplyConfig(cfg)
+	}
+
 	return true
 }

@@ -2,6 +2,7 @@ package outputs
 
 import (
 	"fmt"
+	"sync"
 	"time"
 
 	"github.com/ultimatums/ultimate/config"
@@ -12,23 +13,27 @@ import (
 )
 
 type ElasticOutputType struct {
-	Index string
+	sync.Mutex
+	Index       string
+	elasticConn *elastigo.Conn
 }
 
-var (
-	elasticConn *elastigo.Conn
-)
-
 func (out *ElasticOutputType) Init(cfg *config.ElasticsearchConfig) {
+	out.Lock()
+	defer out.Unlock()
 
-	elasticConn = elastigo.NewConn()
-	elasticConn.Domain = cfg.Host
-	elasticConn.Port = fmt.Sprintf("%d", cfg.Port)
-	elasticConn.Username = cfg.Username
-	elasticConn.Password = cfg.Password
+	if out.elasticConn != nil {
+		out.elasticConn.Close()
+	}
+	out.elasticConn = elastigo.NewConn()
+
+	out.elasticConn.Domain = cfg.Host
+	out.elasticConn.Port = fmt.Sprintf("%d", cfg.Port)
+	out.elasticConn.Username = cfg.Username
+	out.elasticConn.Password = cfg.Password
 
 	if cfg.Protocol != "" {
-		elasticConn.Protocol = cfg.Protocol
+		out.elasticConn.Protocol = cfg.Protocol
 	}
 
 	if cfg.Index != "" {
@@ -37,16 +42,13 @@ func (out *ElasticOutputType) Init(cfg *config.ElasticsearchConfig) {
 		out.Index = "horus"
 	}
 
-	log.Infof("[ElasticOutput] Using Elasticsearch %s://%s:%s", elasticConn.Protocol, elasticConn.Domain, elasticConn.Port)
+	log.Infof("[ElasticOutput] Using Elasticsearch %s://%s:%s", out.elasticConn.Protocol, out.elasticConn.Domain, out.elasticConn.Port)
 	log.Infof("[ElasticOutput] Using index pattern [%s-]YYYY.MM.DD", out.Index)
-
 }
 
 // PublishMetric implements the Output interface.
 func (out *ElasticOutputType) PublishMetric(ts time.Time, metric model.Metric) error {
 	index := fmt.Sprintf("%s-%s", out.Index, ts.Format("2006.01.02"))
-	fmt.Println(metric)
-	//	return nil
-	_, err := elasticConn.Index(index, metric["type"].(string), "", nil, metric)
+	_, err := out.elasticConn.Index(index, metric["type"].(string), "", nil, metric)
 	return err
 }
