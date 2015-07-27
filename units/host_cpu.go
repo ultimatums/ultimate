@@ -33,24 +33,25 @@ func (this *HostCpuUnitFactory) createUnit() Unit {
 		newCPUUsage:  make([]float64, 8),
 
 		metrics: []model.Metric{
-			model.NewGauge("host.cpu.user").AppendTag("hostname", hostname),
-			model.NewGauge("host.cpu.nice").AppendTag("hostname", hostname),
-			model.NewGauge("host.cpu.system").AppendTag("hostname", hostname),
-			model.NewGauge("host.cpu.idle").AppendTag("hostname", hostname),
-			model.NewGauge("host.cpu.iowait").AppendTag("hostname", hostname),
-			model.NewGauge("host.cpu.irq").AppendTag("hostname", hostname),
-			model.NewGauge("host.cpu.softirq").AppendTag("hostname", hostname),
+			model.NewGauge("host.cpu.user").AddTag("hostname", hostname),
+			model.NewGauge("host.cpu.nice").AddTag("hostname", hostname),
+			model.NewGauge("host.cpu.system").AddTag("hostname", hostname),
+			model.NewGauge("host.cpu.idle").AddTag("hostname", hostname),
+			model.NewGauge("host.cpu.iowait").AddTag("hostname", hostname),
+			model.NewGauge("host.cpu.irq").AddTag("hostname", hostname),
+			model.NewGauge("host.cpu.softirq").AddTag("hostname", hostname),
 
-			//			model.NewCounter("host.stat.intr").AppendTag("hostname", hostname),
-			//			model.NewCounter("host.stat.ctxt").AppendTag("hostname", hostname),
-			//			model.NewGauge("host.stat.btime").AppendTag("hostname", hostname),
-			//			model.NewCounter("host.stat.processes").AppendTag("hostname", hostname),
-			//			model.NewGauge("host.stat.procs_running").AppendTag("hostname", hostname),
-			//			model.NewGauge("host.stat.procs_blocked").AppendTag("hostname", hostname),
+			//			model.NewCounter("host.stat.intr").AddTag("hostname", hostname),
+			//			model.NewCounter("host.stat.ctxt").AddTag("hostname", hostname),
+			//			model.NewGauge("host.stat.btime").AddTag("hostname", hostname),
+			//			model.NewCounter("host.stat.processes").AddTag("hostname", hostname),
+			//			model.NewGauge("host.stat.procs_running").AddTag("hostname", hostname),
+			//			model.NewGauge("host.stat.procs_blocked").AddTag("hostname", hostname),
 		},
 	}
 	u.name = UNIT_NAME_HOST_CPU
 	u.fetchStop = make(chan struct{})
+	u.BaseUnit.unit = u
 
 	go func() {
 		err := u.updateStats()
@@ -69,7 +70,6 @@ func (this *HostCpuUnitFactory) createUnit() Unit {
 		}
 	}()
 
-	u.BaseUnit.unit = u
 	return u
 }
 

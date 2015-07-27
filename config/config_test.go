@@ -11,11 +11,11 @@ import (
 )
 
 var expConf = &Config{
-	GlobalConfig: GlobalConfig{
+	GlobalConfig: &GlobalConfig{
 		FetchInterval: model.Duration(15 * time.Second),
 	},
-	OutputConfig: OutputConfig{
-		Elasticsearch: ElasticsearchConfig{
+	OutputConfig: &OutputConfig{
+		Elasticsearch: &ElasticsearchConfig{
 			Host: "192.168.2.78",
 			Port: 9200,
 		},

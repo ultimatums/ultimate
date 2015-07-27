@@ -90,6 +90,12 @@ func (this *PublisherType) StopPublish() {
 	close(this.publistStop) // stop publishFromQueue gorutine
 }
 
+type Hostinfo struct {
+	Hostname string
+	Ips      []string
+	DockerID string
+}
+
 // Output identifier
 type OutputPlugin uint16
 

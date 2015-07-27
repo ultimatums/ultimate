@@ -3,13 +3,13 @@ package config
 import (
 	"fmt"
 	"io/ioutil"
+	"time"
 
 	"github.com/ultimatums/ultimate/model"
 
 	"gopkg.in/yaml.v2"
 )
 
-/*
 var (
 	DefaultConfig = Config{
 		GlobalConfig: &DefaultGlobalConfig,
@@ -21,7 +21,6 @@ var (
 
 	DefaultTaskConfig = TaskConfig{}
 )
-*/
 
 func LoadConfig(filename string) (*Config, error) {
 	content, err := ioutil.ReadFile(filename)

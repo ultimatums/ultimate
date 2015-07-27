@@ -12,10 +12,10 @@ import (
 )
 
 const (
-	UNIT_NAME_HOST_CPU     = "host_cpu"
-	UNIT_NAME_HOST_MEM     = "host_mem"
-	UNIT_NAME_HOST_DISKIO  = "host_diskio"
-	UNIT_NAME_HOST_NETWORK = "host_network"
+	UNIT_NAME_HOST_CPU     = "cpu"
+	UNIT_NAME_HOST_MEM     = "mem"
+	UNIT_NAME_HOST_DISKIO  = "diskio"
+	UNIT_NAME_HOST_NETWORK = "network"
 	UNIT_NAME_CONTAINER    = "container"
 )
 

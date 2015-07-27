@@ -70,7 +70,7 @@ func (m Metric) SetTimestamp(timestamp time.Time) Metric {
 	return m
 }
 
-func (m Metric) AppendTag(tagName string, tagValue interface{}) Metric {
+func (m Metric) AddTag(tagName string, tagValue interface{}) Metric {
 	m["tags"].(map[string]interface{})[tagName] = tagValue
 	return m
 }

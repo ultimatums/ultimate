@@ -9271,3 +9271,73 @@ time="2015-07-22T11:01:06+08:00" level=info msg="Task manager stopped." file=tas
 [37mDEBU[0m[0013] Stopping fetch for unit host_cpu...           [37mfile[0m=unit.go [37mline[0m=82
 [37mDEBU[0m[0013] Fetch for unit host_cpu stopped.              [37mfile[0m=unit.go [37mline[0m=84
 [34mINFO[0m[0013] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=165
+[34mINFO[0m[0000] The process id is 17293                       [34mfile[0m=main.go [34mline[0m=52
+[34mINFO[0m[0000] Loading configuration file ultimate.yml       [34mfile[0m=main.go [34mline[0m=134
+[34mINFO[0m[0000] Stoping publish...                            [34mfile[0m=publish.go [34mline[0m=89
+[34mINFO[0m[0000] [ElasticOutput] Using Elasticsearch http://192.168.2.78:9200  [34mfile[0m=output_elastic.go [34mline[0m=45
+[34mINFO[0m[0000] [ElasticOutput] Using index pattern [horus-]YYYY.MM.DD  [34mfile[0m=output_elastic.go [34mline[0m=46
+[34mINFO[0m[0000] Starting task manager...                      [34mfile[0m=taskmanager.go [34mline[0m=41
+[34mINFO[0m[0000] taskCfg = &{host 5000000000 map[] [0xc20803da70]}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] taskCfg = &{container 10000000000 map[docker_endpoint:unix:///var/run/docker.sock key1:value1] []}  [34mfile[0m=taskmanager.go [34mline[0m=46
+[34mINFO[0m[0000] before removeUnits                            [34mfile[0m=taskmanager.go [34mline[0m=61
+[37mDEBU[0m[0000] length of tm.units is 0                       [37mfile[0m=taskmanager.go [37mline[0m=171
+[34mINFO[0m[0000] Run finished.                                 [34mfile[0m=taskmanager.go [34mline[0m=74
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[34mINFO[0m[0000] fullId = host:sample:cpu                      [34mfile[0m=taskmanager.go [34mline[0m=95
+[34mINFO[0m[0000] factory key = cpu                             [34mfile[0m=unit.go [34mline[0m=110
+[34mINFO[0m[0000] units = map[host:sample:cpu:cpu]              [34mfile[0m=taskmanager.go [34mline[0m=122
+[37mDEBU[0m[0000] handleUnitUpdates finished.                   [37mfile[0m=taskmanager.go [37mline[0m=89
+[37mDEBU[0m[0000] Starting fetch for unit cpu...                [37mfile[0m=unit.go [37mline[0m=61
+[34mINFO[0m[0000] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0005] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0010] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0015] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0020] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0025] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0030] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0035] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0040] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0045] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0050] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0055] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0060] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0065] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0070] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0075] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0080] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0085] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0090] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0095] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0100] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0105] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0110] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0115] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0120] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0125] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0130] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0135] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0140] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0145] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0150] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0155] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0160] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0165] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0170] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0175] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0180] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0185] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0190] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0195] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0200] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0205] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0210] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[34mINFO[0m[0215] in host cpu unit fetch...                     [34mfile[0m=host_cpu.go [34mline[0m=112
+[33mWARN[0m[0218] Caught Signal: interrupt, shuting down gracefully...  [33mfile[0m=main.go [33mline[0m=91
+[34mINFO[0m[0218] See you again!                                [34mfile[0m=main.go [34mline[0m=95
+[34mINFO[0m[0218] Stoping publish...                            [34mfile[0m=publish.go [34mline[0m=89
+[34mINFO[0m[0218] Stoping task manager...                       [34mfile[0m=taskmanager.go [34mline[0m=136
+[37mDEBU[0m[0218] Done: This is publishFromQueue goroutine.     [37mfile[0m=publish.go [37mline[0m=42
+[37mDEBU[0m[0218] length of tm.units is 1                       [37mfile[0m=taskmanager.go [37mline[0m=171
+[37mDEBU[0m[0218] Stopping fetch for unit cpu...                [37mfile[0m=unit.go [37mline[0m=82
+[37mDEBU[0m[0218] Fetch for unit cpu stopped.                   [37mfile[0m=unit.go [37mline[0m=84
+[34mINFO[0m[0218] Task manager stopped.                         [34mfile[0m=taskmanager.go [34mline[0m=164

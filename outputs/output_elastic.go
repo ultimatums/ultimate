@@ -12,6 +12,10 @@ import (
 	"github.com/mattbaird/elastigo/lib"
 )
 
+const (
+	DefaultIndex = "horus"
+)
+
 type ElasticOutputType struct {
 	sync.Mutex
 	Index       string
@@ -39,11 +43,17 @@ func (out *ElasticOutputType) Init(cfg *config.ElasticsearchConfig) {
 	if cfg.Index != "" {
 		out.Index = cfg.Index
 	} else {
-		out.Index = "horus"
+		out.Index = DefaultIndex
 	}
 
 	log.Infof("[ElasticOutput] Using Elasticsearch %s://%s:%s", out.elasticConn.Protocol, out.elasticConn.Domain, out.elasticConn.Port)
 	log.Infof("[ElasticOutput] Using index pattern [%s-]YYYY.MM.DD", out.Index)
+}
+
+func (out *ElasticOutputType) PublishHostinfo() {
+	index := fmt.Sprintf(".%s", DefaultIndex)
+	_, err := out.elasticConn.Index(index, "hostinfo")
+
 }
 
 // PublishMetric implements the Output interface.

@@ -27,7 +27,7 @@ var (
 	cfgFileFlag  = flag.String("config.file", "ultimate.yml", "The configuration file.")
 	versionFlag  = flag.Bool("version", false, "Print the version number.")
 	reloadFlag   = flag.Bool("reload", false, "Reload the configuration file.")
-	logstashFlag = flag.Bool("log.logstash", false, "Generates json in logstash format.")
+	logstashFlag = flag.Bool("log.logstash", false, "Generates json in logstash bformat.")
 )
 
 func main() {

@@ -10,16 +10,15 @@ task_configs:
   - task_name: "host"
     fetch_interval: 5s
     unit_configs:
-      - unit_name: "host_cpu"
-      #- unit_name: "host_mem"
-      #- unit_name: "host_diskio"
-      #- unit_name: "host_network"
+      - unit_name: "cpu"
+      #- unit_name: "mem"
+      #- unit_name: "diskio"
+      #- unit_name: "network"
   
   - task_name: "container"
     fetch_interval: 10s
     task_tags:
       docker_endpoint: "unix:///var/run/docker.sock"
-      key1: "value1"
     unit_configs: 
       #- unit_name: "02e1f960f516"
       #  fetch_interval: 5s
