@@ -14,6 +14,7 @@ import (
 
 const (
 	DefaultIndex = "horus"
+	TypeHostinfo = "hostinfo"
 )
 
 type ElasticOutputType struct {
@@ -52,8 +53,11 @@ func (out *ElasticOutputType) Init(cfg *config.ElasticsearchConfig) {
 
 func (out *ElasticOutputType) PublishHostinfo() {
 	index := fmt.Sprintf(".%s", DefaultIndex)
-	_, err := out.elasticConn.Index(index, "hostinfo")
+	hostinfo := GetHostinfo()
+	_, err := out.elasticConn.Index(index, TypeHostinfo, hostinfo.Hostname, nil, hostinfo)
+	if err != nil {
 
+	}
 }
 
 // PublishMetric implements the Output interface.

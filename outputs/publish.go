@@ -1,6 +1,7 @@
 package outputs
 
 import (
+	"os"
 	"time"
 
 	"github.com/ultimatums/ultimate/config"
@@ -87,18 +88,24 @@ func (this *PublisherType) ApplyConfig(cfg *config.Config) {
 
 func (this *PublisherType) StopPublish() {
 	log.Info("Stoping publish...")
-	close(this.publistStop) // stop publishFromQueue gorutine
+	close(this.publistStop) // stop publishFromQueue goroutine
 }
 
-type Hostinfo struct {
+type hostinfo struct {
 	Hostname string
 	Ips      []string
 	DockerID string
 }
 
-// Output identifier
-type OutputPlugin uint16
+var hostinfoInstance *hostinfo
 
-type Output interface {
-	PublishMetric(ts time.Time, metric model.Metric) error
+func GetHostinfo() *hostinfo {
+	if hostinfoInstance == nil {
+		hostname, _ := os.Hostname()
+
+		hostinfoInstance = &hostinfo{
+			Hostname: hostname,
+		}
+	}
+	return hostinfoInstance
 }
